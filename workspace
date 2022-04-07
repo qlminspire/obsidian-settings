@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "6253be36fd505321",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6cbcca3534f4558",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "05-Templates/Period/_daily.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "99f93f8cf619ae0d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ab0d012b86158395",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "06ad9d880b2d0741",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0b0c05548ba29c68",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#впечатления/мненравится",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "8e33d1b7e2003bc8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 227
+  },
+  "right": {
+    "id": "1e89bf8262ab9bc6",
+    "type": "split",
+    "children": [
+      {
+        "id": "104b37990e82c78f",
+        "type": "tabs",
+        "dimension": 43.50912778904665,
+        "children": [
+          {
+            "id": "30ed4d0bf3b9a989",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "dde18209e667ed00",
+        "type": "tabs",
+        "dimension": 56.49087221095335,
+        "children": [
+          {
+            "id": "c94234be25ddbcbe",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "05-Templates/Period/_daily.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5480ec82e935eb87",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "05-Templates/Period/_daily.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "12b1443c2e2418cd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d715379f3d0eb212",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "05-Templates/Period/_daily.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 270
+  },
+  "active": "e6cbcca3534f4558",
+  "lastOpenFiles": [
+    "05-Templates/Period/_daily.md",
+    "05-Templates/_flashcard.md",
+    "05-Templates/_food-recipe.md",
+    "05-Templates/_film.md",
+    "05-Templates/_diary.md",
+    "05-Templates/Books/_book-work.md",
+    "05-Templates/Books/_book.md",
+    "00-Base/Приложения.md",
+    "01-Daily/2022-04-08.md",
+    "01-Daily/2022-04-07.md"
+  ]
+}

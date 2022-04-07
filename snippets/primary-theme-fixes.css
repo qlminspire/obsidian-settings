@@ -1,0 +1,38 @@
+/* Размер иконок для Primary темы */
+
+.workspace-tab-header {
+    padding: 5px;
+    height: 30px;
+}
+
+/* Задание размера заголовков */
+
+.markdown-preview-view h1,
+.HyperMD-header-1,
+.cm-header-1 {
+    font-size: 2em;
+}
+
+.markdown-preview-view h2,
+.HyperMD-header-2,
+.cm-header-2 {
+    font-size: 1.75em;
+}
+
+.markdown-preview-view h3,
+.HyperMD-header-3,
+.cm-header-3 {
+    font-size: 1.5em;
+}
+
+.markdown-preview-view h4,
+.HyperMD-header-4,
+.cm-header-4 {
+    font-size: 1.25em;
+}
+
+.markdown-preview-view h5,
+.HyperMD-header-5,
+.cm-header-5 {
+    font-size: 1.1em;
+}

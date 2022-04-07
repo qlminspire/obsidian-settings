@@ -1,0 +1,10 @@
+{
+  "sanctum@@dark-mode-palette": "sanctum-dark",
+  "sanctum@@accent-active-line": false,
+  "sanctum@@color-d-accent": "#DDF974",
+  "sanctum@@productive-heading-2": "1.5rem",
+  "sanctum@@productive-heading-3": "1.25rem",
+  "sanctum@@productive-heading-4": "1.125rem",
+  "sanctum@@productive-heading-5": "1rem",
+  "sanctum@@productive-heading-1": "1.75rem"
+}

@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "Входящие",
+      "path": "00-Base/Входящие.md"
+    },
+    {
+      "type": "file",
+      "title": "Меню",
+      "path": "00-Base/Меню.md"
+    },
+    {
+      "type": "file",
+      "title": "Планы",
+      "path": "06-Goals/Планы.md"
+    },
+    {
+      "type": "file",
+      "title": "Мои утренние ритуалы",
+      "path": "00-Base/Мои утренние ритуалы.md"
+    },
+    {
+      "type": "file",
+      "title": "Мои вечерние ритуалы",
+      "path": "00-Base/Мои вечерние ритуалы.md"
+    }
+  ]
+}

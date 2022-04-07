@@ -1,0 +1,37 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#главная",
+      "color": {
+        "a": 1,
+        "rgb": 15786521
+      }
+    },
+    {
+      "query": "tag:#статус/в_процессе",
+      "color": {
+        "a": 1,
+        "rgb": 6021202
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.41566265060241,
+  "repelStrength": 10.2409638554217,
+  "linkStrength": 0.916792168674699,
+  "linkDistance": 336,
+  "scale": 0.26682671397555513,
+  "close": false
+}
