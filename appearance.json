@@ -1,11 +1,11 @@
 {
-  "baseFontSize": 14,
-  "cssTheme": "Primary",
-  "theme": "obsidian",
-  "translucency": true,
+  "baseFontSize": 15,
+  "cssTheme": "Sanctum",
+  "theme": "moonstone",
+  "translucency": false,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "code-block",
-    "primary-theme-fixes"
+    "sanctum-theme-fixes"
   ]
 }

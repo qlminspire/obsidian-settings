@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "6253be36fd505321",
+    "id": "3191fe372d3d3558",
     "type": "split",
     "children": [
       {
-        "id": "e6cbcca3534f4558",
+        "id": "e13977790888b64f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "05-Templates/Period/_daily.md",
+            "file": "00-Base/Финансы.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -20,15 +20,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "99f93f8cf619ae0d",
+    "id": "c48ad08fd6e03f4a",
     "type": "split",
     "children": [
       {
-        "id": "ab0d012b86158395",
+        "id": "879a87ce2682e936",
         "type": "tabs",
         "children": [
           {
-            "id": "06ad9d880b2d0741",
+            "id": "96e6224da0b32371",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -36,22 +36,22 @@
             }
           },
           {
-            "id": "0b0c05548ba29c68",
+            "id": "a70c3b603bf54540",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#впечатления/мненравится",
-                "matchingCase": true,
+                "query": "tag:#тренировка/спина",
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabeticalReverse"
               }
             }
           },
           {
-            "id": "8e33d1b7e2003bc8",
+            "id": "418b0ed544cc02e9",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -62,19 +62,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227
+    "width": 300
   },
   "right": {
-    "id": "1e89bf8262ab9bc6",
+    "id": "eb102d9dfd388bbd",
     "type": "split",
     "children": [
       {
-        "id": "104b37990e82c78f",
+        "id": "a2e73d2f094c7e0f",
         "type": "tabs",
-        "dimension": 43.50912778904665,
+        "dimension": 45.28301886792453,
         "children": [
           {
-            "id": "30ed4d0bf3b9a989",
+            "id": "41b7b16a272c9c88",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -84,19 +84,19 @@
         ]
       },
       {
-        "id": "dde18209e667ed00",
+        "id": "5cbd2ec07361d656",
         "type": "tabs",
-        "dimension": 56.49087221095335,
+        "dimension": 54.71698113207547,
         "children": [
           {
-            "id": "c94234be25ddbcbe",
+            "id": "87523bd2082ba1db",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-Templates/Period/_daily.md",
+                "file": "00-Base/Финансы.md",
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -106,19 +106,29 @@
             }
           },
           {
-            "id": "5480ec82e935eb87",
+            "id": "a7274d11fec92fe3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-Templates/Period/_daily.md",
+                "file": "00-Base/Финансы.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "12b1443c2e2418cd",
+            "id": "bfc5232f4be899b7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00-Base/Финансы.md"
+              }
+            }
+          },
+          {
+            "id": "ba3a9e3511a77e7f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -127,34 +137,25 @@
                 "useHierarchy": true
               }
             }
-          },
-          {
-            "id": "d715379f3d0eb212",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "05-Templates/Period/_daily.md"
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 270
+    "width": 300
   },
-  "active": "e6cbcca3534f4558",
+  "active": "e13977790888b64f",
   "lastOpenFiles": [
-    "05-Templates/Period/_daily.md",
-    "05-Templates/_flashcard.md",
-    "05-Templates/_food-recipe.md",
-    "05-Templates/_film.md",
-    "05-Templates/_diary.md",
-    "05-Templates/Books/_book-work.md",
-    "05-Templates/Books/_book.md",
-    "00-Base/Приложения.md",
-    "01-Daily/2022-04-08.md",
-    "01-Daily/2022-04-07.md"
+    "00-Base/Финансы.md",
+    "07-Boards/Доска.Книги.md",
+    "01-Daily/2021-11-24.md",
+    "00-Base/Цифровой минимализм.md",
+    "00-Base/Books/Метро 2033 - Дмитрий Глуховский.md",
+    "00-Base/Спортивные добавки.md",
+    "00-Base/Фотография.Портрет.Мужские позы.md",
+    "00-Base/Книги.Планы по чтению.md",
+    "01-Daily/2021-08-14.md",
+    "01-Daily/2021-12-10.md"
   ]
 }
