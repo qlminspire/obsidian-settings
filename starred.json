@@ -24,6 +24,16 @@
       "type": "file",
       "title": "Мои вечерние ритуалы",
       "path": "00-Base/Мои вечерние ритуалы.md"
+    },
+    {
+      "type": "file",
+      "title": "Гимнастика для глаз",
+      "path": "00-Base/Гимнастика для глаз.md"
+    },
+    {
+      "type": "file",
+      "title": "@Obsidian",
+      "path": "00-Base/@Services/@Obsidian.md"
     }
   ]
 }

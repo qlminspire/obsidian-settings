@@ -1,22 +1,44 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
-  "hideUnresolved": true,
+  "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#статус/в_процессе",
+      "color": {
+        "a": 1,
+        "rgb": 15779711
+      }
+    },
+    {
+      "query": "tag:#мысли",
+      "color": {
+        "a": 1,
+        "rgb": 2652856
+      }
+    },
+    {
+      "query": "tag:#действия",
+      "color": {
+        "a": 1,
+        "rgb": 12705874
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "collapse-forces": false,
+  "centerStrength": 0.482734509466437,
+  "repelStrength": 10.0688468158348,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.1846232622585827,
+  "scale": 0.13807120506650034,
   "close": false
 }

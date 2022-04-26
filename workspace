@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "e13977790888b64f",
+        "id": "cdcf78b309d6f6d8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "00-Base/Финансы.md",
+            "file": "00-Base/Фотография.Композиция.Вид.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,12 +41,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#тренировка/спина",
+                "query": "```",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabeticalReverse"
+                "extraContext": true,
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -62,7 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 280.0007801055908
   },
   "right": {
     "id": "eb102d9dfd388bbd",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Base/Финансы.md",
+                "file": "00-Base/Фотография.Композиция.Вид.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Base/Финансы.md",
+                "file": "00-Base/Фотография.Композиция.Вид.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Base/Финансы.md"
+                "file": "00-Base/Фотография.Композиция.Вид.md"
               }
             }
           },
@@ -143,19 +143,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 266.5,
+    "collapsed": true
   },
-  "active": "e13977790888b64f",
+  "active": "cdcf78b309d6f6d8",
   "lastOpenFiles": [
-    "00-Base/Финансы.md",
-    "07-Boards/Доска.Книги.md",
-    "01-Daily/2021-11-24.md",
-    "00-Base/Цифровой минимализм.md",
-    "00-Base/Books/Метро 2033 - Дмитрий Глуховский.md",
-    "00-Base/Спортивные добавки.md",
-    "00-Base/Фотография.Портрет.Мужские позы.md",
-    "00-Base/Книги.Планы по чтению.md",
-    "01-Daily/2021-08-14.md",
-    "01-Daily/2021-12-10.md"
+    "00-Base/Фотография.Композиция.Вид.md",
+    "00-Base/Профессиональная литература.md",
+    "01-Daily/2022-04-22.md",
+    "00-Base/Books/Антихрупкость - Насиим Талеб.md",
+    "01-Daily/2022-03-24.md",
+    "00-Base/Аренда квартиры.md",
+    "00-Base/Индекс Перля.md",
+    "00-Base/Осознанность.Упражнение - Фиксирование ощущений.md",
+    "00-Base/Зачем мне медитировать.md",
+    "00-Base/Гормоны.Серотонин.md"
   ]
 }

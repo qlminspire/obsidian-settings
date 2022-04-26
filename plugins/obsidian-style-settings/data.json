@@ -1,10 +1,11 @@
 {
   "sanctum@@dark-mode-palette": "sanctum-dark",
   "sanctum@@accent-active-line": false,
-  "sanctum@@color-d-accent": "#DDF974",
-  "sanctum@@productive-heading-2": "1.5rem",
-  "sanctum@@productive-heading-3": "1.25rem",
-  "sanctum@@productive-heading-4": "1.125rem",
-  "sanctum@@productive-heading-5": "1rem",
-  "sanctum@@productive-heading-1": "1.75rem"
+  "sanctum@@heading-6": "1em",
+  "sanctum@@heading-5": "1.1em",
+  "sanctum@@heading-4": "1.2em",
+  "sanctum@@heading-3": "1.25em",
+  "sanctum@@heading-2": "1.5em",
+  "sanctum@@heading-1": "1.75em",
+  "sanctum@@img-grid": true
 }
