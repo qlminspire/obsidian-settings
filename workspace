@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "cdcf78b309d6f6d8",
+        "id": "8db71efbcbc67779",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "00-Base/Фотография.Композиция.Вид.md",
+            "file": "00-Base/Obsidian.Сторонние плагины.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -24,8 +24,24 @@
     "type": "split",
     "children": [
       {
+        "id": "a0e569a7c031cef6",
+        "type": "tabs",
+        "dimension": 36.666666666666664,
+        "children": [
+          {
+            "id": "418b0ed544cc02e9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
         "id": "879a87ce2682e936",
         "type": "tabs",
+        "dimension": 63.33333333333333,
         "children": [
           {
             "id": "96e6224da0b32371",
@@ -41,28 +57,20 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "```",
+                "query": "tag:#статус/в_процессе",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": true,
-                "sortOrder": "byCreatedTime"
+                "sortOrder": "alphabeticalReverse"
               }
-            }
-          },
-          {
-            "id": "418b0ed544cc02e9",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 280.0007801055908
+    "width": 256.5
   },
   "right": {
     "id": "eb102d9dfd388bbd",
@@ -71,7 +79,6 @@
       {
         "id": "a2e73d2f094c7e0f",
         "type": "tabs",
-        "dimension": 45.28301886792453,
         "children": [
           {
             "id": "41b7b16a272c9c88",
@@ -86,7 +93,6 @@
       {
         "id": "5cbd2ec07361d656",
         "type": "tabs",
-        "dimension": 54.71698113207547,
         "children": [
           {
             "id": "87523bd2082ba1db",
@@ -94,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Base/Фотография.Композиция.Вид.md",
+                "file": "00-Base/Obsidian.Сторонние плагины.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Base/Фотография.Композиция.Вид.md",
+                "file": "00-Base/Obsidian.Сторонние плагины.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Base/Фотография.Композиция.Вид.md"
+                "file": "00-Base/Obsidian.Сторонние плагины.md"
               }
             }
           },
@@ -137,26 +143,33 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "37a30a78b31c79d0",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
-    "collapsed": true
+    "width": 300.5
   },
-  "active": "cdcf78b309d6f6d8",
+  "active": "8db71efbcbc67779",
   "lastOpenFiles": [
-    "00-Base/Фотография.Композиция.Вид.md",
-    "00-Base/Профессиональная литература.md",
-    "01-Daily/2022-04-22.md",
-    "00-Base/Books/Антихрупкость - Насиим Талеб.md",
-    "01-Daily/2022-03-24.md",
-    "00-Base/Аренда квартиры.md",
-    "00-Base/Индекс Перля.md",
-    "00-Base/Осознанность.Упражнение - Фиксирование ощущений.md",
-    "00-Base/Зачем мне медитировать.md",
-    "00-Base/Гормоны.Серотонин.md"
+    "00-Base/Obsidian.Сторонние плагины.md",
+    "unlinked files output.md",
+    "00-Base/@Services/@Obsidian.md",
+    "00-Base/Obsidian.Советы.md",
+    "00-Base/Obsidian.Разработка.md",
+    "00-Base/Obsidian.Изменения в хранилище.md",
+    "00-Base/Obsidian.Ведение заметок.md",
+    "00-Base/Входящие.md",
+    "00-Base/Меню.md",
+    "00-Base/Одежда.md"
   ]
 }

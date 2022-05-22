@@ -2,28 +2,33 @@
   "items": [
     {
       "type": "file",
-      "title": "Входящие",
-      "path": "00-Base/Входящие.md"
-    },
-    {
-      "type": "file",
       "title": "Меню",
       "path": "00-Base/Меню.md"
     },
     {
       "type": "file",
-      "title": "Планы",
-      "path": "06-Goals/Планы.md"
+      "title": "Входящие",
+      "path": "00-Base/Входящие.md"
     },
     {
       "type": "file",
-      "title": "Мои утренние ритуалы",
-      "path": "00-Base/Мои утренние ритуалы.md"
+      "title": "@Obsidian",
+      "path": "00-Base/@Services/@Obsidian.md"
     },
     {
       "type": "file",
-      "title": "Мои вечерние ритуалы",
-      "path": "00-Base/Мои вечерние ритуалы.md"
+      "title": "Горячие клавиши.Obsidian",
+      "path": "00-Base/Горячие клавиши.Obsidian.md"
+    },
+    {
+      "type": "file",
+      "title": "Статистика.Заметки за неделю",
+      "path": "08-Statistics/Статистика.Заметки за неделю.md"
+    },
+    {
+      "type": "file",
+      "title": "Жизненные принципы",
+      "path": "00-Base/Жизненные принципы.md"
     },
     {
       "type": "file",
@@ -32,8 +37,18 @@
     },
     {
       "type": "file",
-      "title": "@Obsidian",
-      "path": "00-Base/@Services/@Obsidian.md"
+      "title": "TikTok импорт",
+      "path": "00-Base/TikTok импорт.md"
+    },
+    {
+      "type": "file",
+      "title": "Вопросы к себе",
+      "path": "00-Base/Вопросы к себе.md"
+    },
+    {
+      "type": "file",
+      "title": "Время для самопознания",
+      "path": "00-Base/Время для самопознания.md"
     }
   ]
 }

@@ -1,8 +1,11 @@
 {
-  "baseFontSize": 14,
+  "baseFontSize": 15,
   "cssTheme": "Sanctum",
-  "theme": "moonstone",
+  "theme": "obsidian",
   "translucency": false,
   "baseFontSizeAction": true,
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [
+    "fixed-video-size",
+    "sanctum-theme-fixes"
+  ]
 }

@@ -2,10 +2,9 @@
   "calendar",
   "dataview",
   "templater-obsidian",
-  "obsidian-style-settings",
   "cm-editor-syntax-highlight-obsidian",
-  "recent-files-obsidian",
   "obsidian-kanban",
   "obsidian-excalidraw-plugin",
-  "obsidian-contextual-typography"
+  "obsidian-contextual-typography",
+  "table-editor-obsidian"
 ]
