@@ -1,5 +1,5 @@
 {
-  "folder": "01-Daily",
+  "folder": "01-Calendar/Daily",
   "autorun": false,
-  "template": "05-Templates/Period/_daily"
+  "template": "05-Templates/Calendar/_daily"
 }

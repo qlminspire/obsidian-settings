@@ -15,20 +15,40 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "01-Daily",
-      "template": "05-Templates/Period/_daily.md"
+      "folder": "01-Calendar/Daily",
+      "template": "05-Templates/Calendar/_daily.md"
     },
     {
-      "folder": "02-Weekly",
-      "template": "05-Templates/Period/_weekly.md"
+      "folder": "01-Calendar/Weekly",
+      "template": "05-Templates/Calendar/_weekly.md"
     },
     {
-      "folder": "03-Monthly",
-      "template": "05-Templates/Period/_monthly.md"
+      "folder": "01-Calendar/Monthly",
+      "template": "05-Templates/Calendar/_monthly.md"
     },
     {
-      "folder": "",
-      "template": ""
+      "folder": "01-Calendar/Monthly/Purchases",
+      "template": "05-Templates/Calendar/_purchase-monthly.md"
+    },
+    {
+      "folder": "01-Calendar/Monthly/Finances",
+      "template": "05-Templates/Calendar/_finance-monthly.md"
+    },
+    {
+      "folder": "03-Sources/Books",
+      "template": "05-Templates/Sources/_book.md"
+    },
+    {
+      "folder": "03-Sources/Movies",
+      "template": "05-Templates/Sources/_movie.md"
+    },
+    {
+      "folder": "03-Sources/Courses",
+      "template": "05-Templates/Sources/_course.md"
+    },
+    {
+      "folder": "03-Sources/Webinars",
+      "template": "05-Templates/Sources/_webinar.md"
     }
   ],
   "syntax_highlighting": true,

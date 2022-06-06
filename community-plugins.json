@@ -3,8 +3,11 @@
   "dataview",
   "templater-obsidian",
   "cm-editor-syntax-highlight-obsidian",
+  "recent-files-obsidian",
   "obsidian-kanban",
   "obsidian-excalidraw-plugin",
   "obsidian-contextual-typography",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "obsidian-style-settings",
+  "obsidian-markmind"
 ]

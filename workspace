@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8db71efbcbc67779",
+        "id": "d193177002cebfd0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "00-Base/Obsidian.Сторонние плагины.md",
+            "file": "05-Templates/_action.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -24,24 +24,8 @@
     "type": "split",
     "children": [
       {
-        "id": "a0e569a7c031cef6",
-        "type": "tabs",
-        "dimension": 36.666666666666664,
-        "children": [
-          {
-            "id": "418b0ed544cc02e9",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
         "id": "879a87ce2682e936",
         "type": "tabs",
-        "dimension": 63.33333333333333,
         "children": [
           {
             "id": "96e6224da0b32371",
@@ -57,20 +41,28 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#статус/в_процессе",
+                "query": "tag:#фото-заметки",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": true,
-                "sortOrder": "alphabeticalReverse"
+                "sortOrder": "byCreatedTime"
               }
+            }
+          },
+          {
+            "id": "418b0ed544cc02e9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 309.5
   },
   "right": {
     "id": "eb102d9dfd388bbd",
@@ -100,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Base/Obsidian.Сторонние плагины.md",
+                "file": "05-Templates/_action.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Base/Obsidian.Сторонние плагины.md",
+                "file": "05-Templates/_action.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Base/Obsidian.Сторонние плагины.md"
+                "file": "05-Templates/_action.md"
               }
             }
           },
@@ -157,19 +149,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 301.1036682128906
   },
-  "active": "8db71efbcbc67779",
+  "active": "d193177002cebfd0",
   "lastOpenFiles": [
-    "00-Base/Obsidian.Сторонние плагины.md",
-    "unlinked files output.md",
-    "00-Base/@Services/@Obsidian.md",
-    "00-Base/Obsidian.Советы.md",
-    "00-Base/Obsidian.Разработка.md",
-    "00-Base/Obsidian.Изменения в хранилище.md",
-    "00-Base/Obsidian.Ведение заметок.md",
-    "00-Base/Входящие.md",
-    "00-Base/Меню.md",
-    "00-Base/Одежда.md"
+    "05-Templates/_action.md",
+    "05-Templates/_alias.md",
+    "05-Templates/_board-base.md",
+    "05-Templates/_brand.md",
+    "05-Templates/_crypto.md",
+    "00-Base/Work/Figma.Плагины.md",
+    "00-Base/Work/404 страница.md",
+    "00-Base/Work/Glassmorphism.md",
+    "00-Base/Work/Neumorphism.md",
+    "00-Base/Work/No-Code.md"
   ]
 }

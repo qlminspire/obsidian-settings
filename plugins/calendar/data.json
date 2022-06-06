@@ -5,6 +5,6 @@
   "showWeeklyNote": true,
   "weeklyNoteFormat": "",
   "weeklyNoteTemplate": "_weekly",
-  "weeklyNoteFolder": "02-Weekly",
+  "weeklyNoteFolder": "01-Calendar/Weekly",
   "localeOverride": "system-default"
 }

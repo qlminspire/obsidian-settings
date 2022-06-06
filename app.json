@@ -43,7 +43,7 @@
     "editor:toggle-keyboard",
     "editor:configure-toolbar"
   ],
-  "fileSortOrder": "alphabetical",
+  "fileSortOrder": "alphabeticalReverse",
   "vimMode": false,
   "showLineNumber": false,
   "pdfExportSettings": {

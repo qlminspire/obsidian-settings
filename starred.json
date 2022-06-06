@@ -12,8 +12,13 @@
     },
     {
       "type": "file",
+      "title": "Zettelkasten",
+      "path": "00-Base/Zettelkasten.md"
+    },
+    {
+      "type": "file",
       "title": "@Obsidian",
-      "path": "00-Base/@Services/@Obsidian.md"
+      "path": "02-Services/@Obsidian.md"
     },
     {
       "type": "file",
