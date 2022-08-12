@@ -1,11 +1,3 @@
-/* .markdown-source-view.mod-cm6 .cm-formatting-list-ul,
-.markdown-source-view.mod-cm6 .cm-formatting-list-ol {
-    margin-right: 5px;
-} */
-
-.markdown-preview-view ol li, .markdown-preview-view ul li {
-    margin: 0px;
-}
 
 .markdown-preview-view blockquote {
     margin-inline-start:8px;

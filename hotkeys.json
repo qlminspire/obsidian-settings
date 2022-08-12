@@ -72,8 +72,8 @@
   "graph:open-local": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Alt",
+        "Mod"
       ],
       "key": "G"
     }
@@ -436,5 +436,42 @@
       ],
       "key": "R"
     }
-  ]
+  ],
+  "table-editor-obsidian:evaluate-formulas": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
+  "sliding-panes-obsidian:toggle-sliding-panes-rotated-headers": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "R"
+    }
+  ],
+  "sliding-panes-obsidian:toggle-sliding-panes": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ],
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "graph:open": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "G"
+    }
+  ],
+  "editor:insert-link": []
 }

@@ -52,6 +52,13 @@
     "margin": "0",
     "downscalePercent": 82
   },
-  "strictLineBreaks": true,
-  "showFrontmatter": false
+  "strictLineBreaks": false,
+  "showFrontmatter": false,
+  "showUnsupportedFiles": true,
+  "readableLineLength": true,
+  "showIndentGuide": true,
+  "rightToLeft": false,
+  "userIgnoreFilters": [
+    "04-Files/TikTok/"
+  ]
 }

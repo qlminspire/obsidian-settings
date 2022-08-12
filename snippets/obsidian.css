@@ -1,8 +1,14 @@
-/*****************************/
-/* Code-blocks: Font & style */
-/*****************************/
+.workspace-tabs .workspace-leaf {
+    border: 0px;
+}
 
-.cm-s-obsidian div.HyperMD-codeblock-begin-bg,
+/* Window for video is fixed to 320px */
+.media-embed video, .el-embed-video {
+    width: 320px;
+}
+
+/* Code-blocks: Font & style */
+/* .cm-s-obsidian div.HyperMD-codeblock-begin-bg,
 .cm-s-obsidian div.HyperMD-codeblock-bg,
 .cm-s-obsidian div.HyperMD-codeblock-end-bg,
 .cm-s-obsidian pre.HyperMD-codeblock,
@@ -17,4 +23,4 @@
   font-family: "Source Code Pro", monospace;
   font-size: 1em;
   letter-spacing: 0.25px;
-}
+} */
