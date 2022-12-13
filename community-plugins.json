@@ -1,14 +1,13 @@
 [
   "calendar",
-  "dataview",
-  "templater-obsidian",
-  "cm-editor-syntax-highlight-obsidian",
-  "recent-files-obsidian",
   "obsidian-kanban",
-  "obsidian-excalidraw-plugin",
+  "templater-obsidian",
   "obsidian-contextual-typography",
-  "table-editor-obsidian",
+  "dataview",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-excalidraw-plugin",
+  "recent-files-obsidian",
   "obsidian-style-settings",
-  "pane-relief",
-  "sliding-panes-obsidian"
+  "table-editor-obsidian",
+  "obsidian-minimal-settings"
 ]

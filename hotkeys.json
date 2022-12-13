@@ -473,5 +473,13 @@
       "key": "G"
     }
   ],
-  "editor:insert-link": []
+  "editor:insert-link": [],
+  "editor:cycle-list-checklist": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Enter"
+    }
+  ]
 }

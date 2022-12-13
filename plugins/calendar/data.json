@@ -4,7 +4,7 @@
   "wordsPerDot": 250,
   "showWeeklyNote": true,
   "weeklyNoteFormat": "",
-  "weeklyNoteTemplate": "_weekly",
-  "weeklyNoteFolder": "01-Calendar/Weekly",
+  "weeklyNoteTemplate": "",
+  "weeklyNoteFolder": "",
   "localeOverride": "system-default"
 }

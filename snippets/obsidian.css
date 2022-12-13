@@ -2,6 +2,10 @@
     border: 0px;
 }
 
+.workspace-tabs .view-header{
+  margin-top:24px;
+}
+
 /* Window for video is fixed to 320px */
 .media-embed video, .el-embed-video {
     width: 320px;

@@ -15,7 +15,7 @@
   "spellcheck": false,
   "defaultViewMode": "source",
   "trashOption": "local",
-  "mobilePullAction": "daily-notes",
+  "mobilePullAction": "random-note",
   "mobileToolbarCommands": [
     "editor:insert-wikilink",
     "editor:insert-embed",

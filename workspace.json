@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "68276620e205d0f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "3831b3922c7f5d01",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "190b5981f12744df",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "c56fe0808e311d0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Calendar/Daily/2022-12-12.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "838d826f40f06efe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10-Project/Сходить к дерматологу.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f0fa2facab7a4cab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Base/Ключи.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "18f33170194d71d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd2a2a852db7fcd0",
+        "type": "tabs",
+        "dimension": 63.11274509803921,
+        "children": [
+          {
+            "id": "02caaa3007ed3b47",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0d4d9ef920643822",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "sort",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c24d6eda326cbfd1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "66663bcc94444670",
+        "type": "tabs",
+        "dimension": 36.88725490196079,
+        "children": [
+          {
+            "id": "406d787427b88a2d",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 314
+  },
+  "right": {
+    "id": "cabb97373c03e5ee",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3a581fee76eb1a6",
+        "type": "tabs",
+        "dimension": 53.78289473684211,
+        "children": [
+          {
+            "id": "3d0208ee3e2e05ce",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "5709551dfbb1b58d",
+        "type": "tabs",
+        "dimension": 46.2171052631579,
+        "children": [
+          {
+            "id": "f4c41c5d842e2a8b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00-Base/Ключи.md"
+              }
+            }
+          },
+          {
+            "id": "dc82626cf9d8c549",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8c74b646d92f6095",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00-Base/Ключи.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "34aef3d2ee1132e3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00-Base/Ключи.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "37f1ca4101b83047",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 293
+  },
+  "active": "f0fa2facab7a4cab",
+  "lastOpenFiles": [
+    "00-Base/Windows.md",
+    "00-Base/Xiaomi RedmiBook Pro 15.md",
+    "01-Calendar/Daily/2022-12-13.md",
+    "01-Calendar/Daily/2022-12-12.md",
+    "01-Calendar/Daily/2022-12-11.md",
+    "01-Calendar/Daily/2022-12-10.md",
+    "10-Project/Отбелить передний зуб.md",
+    "00-Base/Советы по гигиене полости рта.md",
+    "10-Project/Избавиться от бородавки на стопе.md",
+    "10-Project/Сходить к дерматологу.md"
+  ]
+}

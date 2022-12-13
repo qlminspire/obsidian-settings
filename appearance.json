@@ -1,12 +1,13 @@
 {
-  "baseFontSize": 16,
-  "cssTheme": "Sanctum",
-  "theme": "moonstone",
+  "accentColor": "#88aaa5",
+  "baseFontSize": 15,
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
   "translucency": false,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "fixed-video-size",
-    "obsidian",
-    "sanctum-theme-fixes"
-  ]
+    "obsidian"
+  ],
+  "nativeMenus": false
 }
