@@ -21,19 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "1782d04ca828ffb4",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "08-Files/Pasted image 20240309164843.png"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08-Files/Pasted image 20240309164843.png"
+                "file": "Inbox.md"
               }
             }
           },
@@ -123,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "08-Files/Pasted image 20240309164843.png",
+                "file": "Inbox.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "08-Files/Pasted image 20240309164843.png",
+                "file": "Inbox.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,8 +167,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1782d04ca828ffb4",
+  "active": "0151a0be9d397de4",
   "lastOpenFiles": [
+    "08-Files/Pasted image 20240309164843.png",
     "08-Files/Pasted image 20240309162647.png",
     "08-Files/Pasted image 20240304224309.png",
     "08-Files/Pasted image 20240304221843.png",
@@ -199,7 +189,6 @@
     "08-Files/Miscellaneous/Pasted image 20220604130933.png",
     "08-Files/Miscellaneous/Pasted image 20220516223113.png",
     "08-Files/Miscellaneous/Pasted image 20220604134658.png",
-    "08-Files/Miscellaneous/Pasted image 20220516223101.png",
     "08-Files/Miscellaneous/Download (1).mp4",
     "08-Files/ticket_with_registration.pdf",
     "03-Canvas/Inspiration Board.canvas",
