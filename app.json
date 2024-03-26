@@ -3,15 +3,12 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "00-Base",
-  "attachmentFolderPath": "04-Files",
+  "attachmentFolderPath": "08-Files",
   "foldHeading": true,
   "foldIndent": true,
   "legacyEditor": false,
   "livePreview": true,
-  "spellcheckLanguages": [
-    "en-US",
-    "ru"
-  ],
+  "spellcheckLanguages": null,
   "spellcheck": false,
   "defaultViewMode": "source",
   "trashOption": "local",
@@ -59,6 +56,7 @@
   "showIndentGuide": true,
   "rightToLeft": false,
   "userIgnoreFilters": [
-    "04-Files/TikTok/"
-  ]
+    "08-Files/TikTok/"
+  ],
+  "showInlineTitle": true
 }

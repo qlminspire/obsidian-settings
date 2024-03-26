@@ -9,5 +9,6 @@
     "fixed-video-size",
     "obsidian"
   ],
-  "nativeMenus": false
+  "nativeMenus": true,
+  "showViewHeader": true
 }

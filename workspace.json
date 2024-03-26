@@ -1,76 +1,53 @@
 {
   "main": {
-    "id": "68276620e205d0f1",
+    "id": "f5eb873f20a0cc8c",
     "type": "split",
     "children": [
       {
-        "id": "3831b3922c7f5d01",
+        "id": "2abac462571f2f1c",
         "type": "tabs",
         "children": [
           {
-            "id": "190b5981f12744df",
+            "id": "0151a0be9d397de4",
             "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "c56fe0808e311d0d",
-            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-Calendar/Daily/2022-12-12.md",
+                "file": "Inbox.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "838d826f40f06efe",
+            "id": "1782d04ca828ffb4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "10-Project/Сходить к дерматологу.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f0fa2facab7a4cab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-Base/Ключи.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "08-Files/Pasted image 20240309164843.png"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "18f33170194d71d6",
+    "id": "988b9e0e1c54d4ec",
     "type": "split",
     "children": [
       {
-        "id": "fd2a2a852db7fcd0",
+        "id": "bc6b301a1565b0fa",
         "type": "tabs",
-        "dimension": 63.11274509803921,
         "children": [
           {
-            "id": "02caaa3007ed3b47",
+            "id": "2491b50c30e1d623",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -80,14 +57,14 @@
             }
           },
           {
-            "id": "0d4d9ef920643822",
+            "id": "0716981ff5f51695",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "sort",
-                "matchingCase": true,
-                "explainSearch": true,
+                "query": "\"ведение заметок\"",
+                "matchingCase": false,
+                "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
@@ -95,25 +72,10 @@
             }
           },
           {
-            "id": "c24d6eda326cbfd1",
+            "id": "c502f8243ee4904f",
             "type": "leaf",
             "state": {
-              "type": "starred",
-              "state": {}
-            }
-          }
-        ]
-      },
-      {
-        "id": "66663bcc94444670",
-        "type": "tabs",
-        "dimension": 36.88725490196079,
-        "children": [
-          {
-            "id": "406d787427b88a2d",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -121,19 +83,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314
+    "width": 282.5
   },
   "right": {
-    "id": "cabb97373c03e5ee",
+    "id": "cee1a25753d824e4",
     "type": "split",
     "children": [
       {
-        "id": "f3a581fee76eb1a6",
+        "id": "d953ea8d9a57e4d5",
         "type": "tabs",
-        "dimension": 53.78289473684211,
         "children": [
           {
-            "id": "3d0208ee3e2e05ce",
+            "id": "697b8f839b1eca9c",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -143,38 +104,26 @@
         ]
       },
       {
-        "id": "5709551dfbb1b58d",
+        "id": "7e824c14d876392f",
         "type": "tabs",
-        "dimension": 46.2171052631579,
         "children": [
           {
-            "id": "f4c41c5d842e2a8b",
+            "id": "c5484653799d1a5e",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-Base/Ключи.md"
+                "file": "08-Files/Pasted image 20240309164843.png"
               }
             }
           },
           {
-            "id": "dc82626cf9d8c549",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "8c74b646d92f6095",
+            "id": "f47cab378e4ba9e8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-Base/Ключи.md",
+                "file": "08-Files/Pasted image 20240309164843.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,42 +135,106 @@
             }
           },
           {
-            "id": "34aef3d2ee1132e3",
+            "id": "892c64b53374db20",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-Base/Ключи.md",
+                "file": "08-Files/Pasted image 20240309164843.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "37f1ca4101b83047",
+            "id": "e50ba690ece4c448",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 293
+    "width": 340.5
   },
-  "active": "f0fa2facab7a4cab",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": true,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "canvas:Create new canvas": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "1782d04ca828ffb4",
   "lastOpenFiles": [
-    "00-Base/Windows.md",
-    "00-Base/Xiaomi RedmiBook Pro 15.md",
-    "01-Calendar/Daily/2022-12-13.md",
-    "01-Calendar/Daily/2022-12-12.md",
-    "01-Calendar/Daily/2022-12-11.md",
-    "01-Calendar/Daily/2022-12-10.md",
-    "10-Project/Отбелить передний зуб.md",
-    "00-Base/Советы по гигиене полости рта.md",
-    "10-Project/Избавиться от бородавки на стопе.md",
-    "10-Project/Сходить к дерматологу.md"
+    "08-Files/Pasted image 20240309162647.png",
+    "08-Files/Pasted image 20240304224309.png",
+    "08-Files/Pasted image 20240304221843.png",
+    "08-Files/IMG_3684 1.jpg",
+    "08-Files/IMG_3684.jpg",
+    "03-Canvas/Book Board.canvas",
+    "08-Files/Pasted image 20240326114505.png",
+    "08-Files/TikTok/b8a7878658fc7df72bcfbccb129bcadf.mp4",
+    "08-Files/Miscellaneous/Snaptik.app_7319098771906874631.mp4",
+    "08-Files/Miscellaneous/Snaptik.app_7201711971589197099.mp4",
+    "08-Files/Miscellaneous/Snaptik.app_7149135875740388614.mp4",
+    "08-Files/Miscellaneous/Snaptik.app_7313556651024469253.mp4",
+    "08-Files/Miscellaneous/Snaptik.app_7299646843569425665.mp4",
+    "08-Files/Miscellaneous/Snaptik.app_7339502375842958624.mp4",
+    "08-Files/Miscellaneous/Snaptik.app_7332952879633878318.mp4",
+    "08-Files/Miscellaneous/Pasted image 20220516223048.png",
+    "08-Files/Miscellaneous/Pasted image 20220604130933.png",
+    "08-Files/Miscellaneous/Pasted image 20220516223113.png",
+    "08-Files/Miscellaneous/Pasted image 20220604134658.png",
+    "08-Files/Miscellaneous/Pasted image 20220516223101.png",
+    "08-Files/Miscellaneous/Download (1).mp4",
+    "08-Files/ticket_with_registration.pdf",
+    "03-Canvas/Inspiration Board.canvas",
+    "03-Canvas/Motivation Board.canvas",
+    "03-Canvas/Health Board.canvas",
+    "03-Canvas/Home Board.canvas",
+    "03-Canvas/Look Board.canvas",
+    "03-Canvas/Goal Board.canvas",
+    "03-Canvas/Wish Board.canvas",
+    "03-Canvas/Grow Board.canvas",
+    "Inbox.md",
+    "02-Calendar/Daily/2024-03-21.md",
+    "01-Base/Еда.md",
+    "02-Calendar/Daily/2024-03-25.md",
+    "02-Calendar/Daily/2024-03-24.md",
+    "01-Base/@Pornhub.md",
+    "01-Base/Минск.md",
+    "02-Calendar/Daily/2024-03-16.md",
+    "02-Calendar/Daily/2024-03-05.md",
+    "02-Calendar/Daily/2024-03-22.md",
+    "02-Calendar/Daily/2024-03-23.md",
+    "Меню.md",
+    "Inbox - Mobile.md",
+    "01-Base/Фотоаппарат.md",
+    "Последние заметки.md",
+    "01-Base/Регистрации.md",
+    "01-Base/@Вика.md",
+    "02-Calendar/Daily/2024-03-11.md",
+    "02-Calendar/Daily/2024-03-10.md",
+    "02-Calendar/Daily/2024-03-09.md",
+    "02-Calendar/Daily/2024-03-03.md",
+    "01-Base/Питание.Рацион.md",
+    "02-Calendar/Daily/2024-03-02.md",
+    "02-Calendar/Daily/2024-03-01.md",
+    "02-Calendar/Daily/2024-02-28.md",
+    "03-Canvas/Manga Board.canvas"
   ]
 }

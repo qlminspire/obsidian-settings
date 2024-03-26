@@ -1,5 +1,4 @@
 {
-  "theme": "moonstone",
   "lightStyle": "minimal-light",
   "darkStyle": "minimal-dark",
   "lightScheme": "minimal-notion-light",
@@ -22,15 +21,16 @@
   "colorfulActiveStates": true,
   "trimNames": true,
   "labeledNav": false,
-  "fullWidthMedia": true,
+  "fullWidthMedia": false,
   "bordersToggle": false,
   "minimalStatus": true,
   "focusMode": false,
   "underlineInternal": true,
   "underlineExternal": true,
-  "useSystemTheme": false,
   "folding": true,
   "lineNumbers": false,
   "readableLineLength": true,
-  "devBlockWidth": false
+  "devBlockWidth": false,
+  "theme": "moonstone",
+  "useSystemTheme": false
 }

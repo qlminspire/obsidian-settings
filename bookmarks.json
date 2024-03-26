@@ -1,0 +1,71 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1685217884938,
+      "path": "02-Calendar/Daily/2023-05-23.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1685220518917,
+      "path": "01-Base/Биомеханика.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1706109321466,
+      "path": "01-Base/Цитаты.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1706729399887,
+      "path": "01-Base/Список покупок.md"
+    },
+    {
+      "type": "group",
+      "ctime": 1708968403860,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1708971803829,
+          "path": "03-Canvas"
+        },
+        {
+          "type": "file",
+          "ctime": 1708968270707,
+          "path": "01-Base/Как знакомиться с новыми программами.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1708970946229,
+          "path": "01-Base/@Logitech Lyft.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1706726070928,
+          "path": "01-Base/@Power Toys.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1708968199698,
+          "path": "01-Base/@Notion Calendar.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1708968311106,
+          "path": "01-Base/@VS Code.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1708968363800,
+          "path": "01-Base/@Google Chrome.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1708972289707,
+          "path": "01-Base/@Todoist.md"
+        }
+      ],
+      "title": "Пересмотреть"
+    }
+  ]
+}

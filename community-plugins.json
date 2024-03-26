@@ -1,13 +1,11 @@
 [
-  "calendar",
   "obsidian-kanban",
   "templater-obsidian",
   "obsidian-contextual-typography",
   "dataview",
   "cm-editor-syntax-highlight-obsidian",
-  "obsidian-excalidraw-plugin",
-  "recent-files-obsidian",
   "obsidian-style-settings",
-  "table-editor-obsidian",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "obsidian-excalidraw-plugin",
+  "calendar"
 ]
