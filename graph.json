@@ -1,0 +1,37 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:07-Sources/Books  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:02-Calendar",
+      "color": {
+        "a": 1,
+        "rgb": 8240831
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.03151041666667,
+  "lineSizeMultiplier": 0.98046875,
+  "collapse-forces": false,
+  "centerStrength": 0.5234375,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 305,
+  "scale": 0.6300488312585278,
+  "close": true
+}

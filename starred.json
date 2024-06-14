@@ -1,0 +1,124 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "Меню",
+      "path": "01-Base/Меню.md"
+    },
+    {
+      "type": "file",
+      "title": "Планы",
+      "path": "04-Goals/Планы.md"
+    },
+    {
+      "type": "file",
+      "title": "@Obsidian",
+      "path": "00-Base/@Services/@Obsidian.md"
+    },
+    {
+      "type": "file",
+      "title": "TikTok импорт",
+      "path": "00-Base/TikTok импорт.md"
+    },
+    {
+      "type": "file",
+      "title": "Draft",
+      "path": "00-Base/Draft.md"
+    },
+    {
+      "type": "file",
+      "title": "Входящие",
+      "path": "00-Base/Inbox.md"
+    },
+    {
+      "type": "file",
+      "title": "Workspace",
+      "path": "00-Base/Workspace.md"
+    },
+    {
+      "type": "file",
+      "title": "Watch later",
+      "path": "00-Base/Watch later.md"
+    },
+    {
+      "type": "file",
+      "title": "@Github",
+      "path": "02-Services/@Github.md"
+    },
+    {
+      "type": "file",
+      "title": "@Redis",
+      "path": "02-Services/@Redis.md"
+    },
+    {
+      "type": "file",
+      "title": "Redis.The Complete Developer's Guide",
+      "path": "03-Sources/Courses/Redis.The Complete Developer's Guide.md"
+    },
+    {
+      "type": "file",
+      "title": "System design",
+      "path": "00-Base/System design.md"
+    },
+    {
+      "type": "file",
+      "title": "Learning Path.2022",
+      "path": "06-Learning/Learning Path.2022.md"
+    },
+    {
+      "type": "file",
+      "title": "Вопросы к себе",
+      "path": "01-Base/Вопросы к себе.md"
+    },
+    {
+      "type": "file",
+      "title": "Статистика.Заметки за неделю",
+      "path": "06-Statistics/Статистика.Последние заметки.md"
+    },
+    {
+      "type": "file",
+      "title": "Купить обувь",
+      "path": "10-Project/Собрать гардероб/Купить обувь.md"
+    },
+    {
+      "type": "file",
+      "title": "Actionable advices",
+      "path": "01-Base/Actionable advices.md"
+    },
+    {
+      "type": "file",
+      "title": "Эндокринолог",
+      "path": "01-Base/Эндокринолог.md"
+    },
+    {
+      "type": "file",
+      "title": "Доска.Темы для саморазвития",
+      "path": "05-Dashboards/Доска.Темы для саморазвития.md"
+    },
+    {
+      "type": "file",
+      "title": "Доска.Привычки",
+      "path": "05-Dashboards/Доска.Привычки.md"
+    },
+    {
+      "type": "file",
+      "title": "Доска.Планы",
+      "path": "05-Dashboards/Доска.Планы.md"
+    },
+    {
+      "type": "file",
+      "title": "Доска.Книги",
+      "path": "05-Dashboards/Доска.Книги.md"
+    },
+    {
+      "type": "file",
+      "title": "Планы 2022-2027",
+      "path": "04-Goals/Планы 2022-2027.md"
+    },
+    {
+      "type": "file",
+      "title": "На что стоит обратить внимание 2023",
+      "path": "04-Goals/На что стоит обратить внимание 2023.md"
+    }
+  ]
+}

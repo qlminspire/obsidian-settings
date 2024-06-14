@@ -1,14 +1,17 @@
 {
   "accentColor": "#88aaa5",
-  "baseFontSize": 15,
-  "cssTheme": "Minimal",
-  "theme": "obsidian",
+  "baseFontSize": 16,
+  "cssTheme": "Border",
+  "theme": "moonstone",
   "translucency": false,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "fixed-video-size",
-    "obsidian"
+    "media-grid-snippet"
   ],
   "nativeMenus": true,
-  "showViewHeader": true
+  "showViewHeader": true,
+  "textFontFamily": "JetBrains Mono,Cascadia Code PL SemiLight,Cascadia Code PL,Symbols Nerd Font,JetBrainsMono Nerd Font Mono,Symbols Nerd Font Mono,iA Writer Mono S,Cascadia Mono PL",
+  "interfaceFontFamily": "JetBrains Mono,Cascadia Code PL",
+  "monospaceFontFamily": ""
 }
