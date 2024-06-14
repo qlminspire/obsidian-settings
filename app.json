@@ -1,5 +1,5 @@
 {
-  "promptDelete": false,
+  "promptDelete": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "01-Base",
@@ -58,5 +58,6 @@
   "userIgnoreFilters": [
     "08-Files/TikTok/"
   ],
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "showRibbon": true
 }
