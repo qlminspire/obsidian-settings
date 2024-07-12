@@ -4,18 +4,286 @@
     "type": "split",
     "children": [
       {
-        "id": "92f973b362ea26d5",
+        "id": "f0c21b18f3480463",
         "type": "tabs",
         "children": [
           {
-            "id": "3419657beaf9f762",
+            "id": "14b2aebd9d4364be",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Меню.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "ce50761fba759054",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Life Core.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "6c5e71a6745548ce",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Последние заметки.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "a5144f93e17304a4",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Список покупок.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "70911d67ee2b48e1",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Inbox.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "803df29fc1150a54",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "05-Dashboards/Доска.Книги.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "2ab6b27c034cde95",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "05-Dashboards/Доска.Привычки.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "6a1eb09554498c77",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04-Canvas/Book Board.canvas",
+                "viewState": {
+                  "x": 2677.32398753894,
+                  "y": 539.6222741433021,
+                  "zoom": -2.1002283903509875
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "1906c01922c126d9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "04-Canvas/Goal Board.canvas",
+                "viewState": {
+                  "x": -1347.5,
+                  "y": -140,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "cb5d540321bde16a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04-Canvas/Goal Board.canvas",
+                "viewState": {
+                  "x": -1347.5,
+                  "y": -140,
+                  "zoom": 0
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "22888739e027afa3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04-Canvas/Grow Board.canvas",
+                "viewState": {
+                  "x": -485.5,
+                  "y": 220.5,
+                  "zoom": -1.5419686831693036
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "71446515443e498d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04-Canvas/Home Board.canvas",
+                "viewState": {
+                  "x": 910,
+                  "y": 3918,
+                  "zoom": -2.6336448675777997
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "bc9f0616f992e8e7",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04-Canvas/Inbox.canvas",
+                "viewState": {
+                  "x": 115,
+                  "y": -300,
+                  "zoom": -0.17739625087344785
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "f78bad4a8a017c77",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04-Canvas/Inspiration Board.canvas",
+                "viewState": {
+                  "x": -748,
+                  "y": -72,
+                  "zoom": -0.010746381463996363
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "624851e38cbdc28b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04-Canvas/Look Board.canvas",
+                "viewState": {
+                  "x": 1676.5,
+                  "y": 1550,
+                  "zoom": -2.307927814015673
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "7543e7b9711154c6",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04-Canvas/Motivation Board.canvas",
+                "viewState": {
+                  "x": 887,
+                  "y": -1200,
+                  "zoom": -0.6565640875720072
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "fc0f5d58ccca183a",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04-Canvas/Wish Board.canvas",
+                "viewState": {
+                  "x": -907.5,
+                  "y": -400,
+                  "zoom": 0
+                }
+              },
+              "pinned": true
             }
           }
-        ]
+        ],
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -44,7 +312,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "2022-M",
+                "query": "region to share",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +333,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 327.5
+    "width": 524.5
   },
   "right": {
     "id": "f973d9d030e043da",
@@ -74,7 +342,7 @@
       {
         "id": "348bd0699b9be8f9",
         "type": "tabs",
-        "dimension": 24.33431952662722,
+        "dimension": 42.905405405405396,
         "children": [
           {
             "id": "69d04c641f53f14a",
@@ -89,7 +357,7 @@
       {
         "id": "15fe643b784af952",
         "type": "tabs",
-        "dimension": 75.66568047337277,
+        "dimension": 57.094594594594604,
         "children": [
           {
             "id": "c8841983c4edaf7b",
@@ -97,6 +365,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "04-Canvas/Wish Board.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +382,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "04-Canvas/Wish Board.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +404,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "04-Canvas/Wish Board.canvas"
+              }
             }
           }
         ],
@@ -142,7 +414,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5
+    "width": 355.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -158,62 +431,62 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3419657beaf9f762",
+  "active": "06a125dbe6dad26f",
   "lastOpenFiles": [
-    "03-Canvas/Фото стена.canvas",
-    "Inbox.md",
-    "01-Base/Жилье.md",
-    "03-Canvas/Home Board.canvas",
-    "02-Calendar/Daily/2024-06-14.md",
-    "Последние заметки.md",
-    "08-Files/Pasted image 20240614204826.png",
-    "01-Base/Кофе.md",
-    "01-Base/Чистка от налета.md",
-    "02-Calendar/Daily/2024-06-10.md",
-    "01-Base/@Pornhub.md",
-    "08-Files/Pasted image 20240614200758.png",
-    "10-Templates/Calendar/_daily.md",
+    "04-Canvas/Motivation Board.canvas",
+    "04-Canvas/Look Board.canvas",
+    "04-Canvas/Inspiration Board.canvas",
+    "04-Canvas/Inbox.canvas",
+    "04-Canvas/Home Board.canvas",
+    "04-Canvas/Grow Board.canvas",
+    "04-Canvas/Goal Board.canvas",
+    "04-Canvas/Book Board.canvas",
+    "02-Calendar/Weekly/2022-W14.md",
+    "02-Calendar/Weekly/2022-W23.md",
+    "05-Dashboards/Доска.Привычки.md",
+    "05-Dashboards/Доска.Книги.md",
+    "05-Dashboards/Доска.md",
+    "08-Files/Diary/_Diary.md",
+    "08-Files/Books/_Books.md",
+    "10-Templates/Personal/_exercise.md",
+    "10-Templates/Personal/_diary-reflection.md",
+    "10-Templates/Personal/_diary.md",
     "10-Templates/Calendar/_monthly.md",
-    "Life Core.md",
-    "Меню.md",
+    "10-Templates/Calendar/_daily.md",
+    "Inbox.md",
+    "Inbox - Mobile.md",
     "Список покупок.md",
-    "02-Calendar/Daily/2022-05-29.md",
-    "02-Calendar/Daily/2022-07-09.md",
-    "01-Base/Сгибание на бицепс со штангой.md",
-    "01-Base/Жим гантелей в наклоне лежа.md",
-    "01-Base/Сахар.Сахарная зависимость.md",
-    "01-Base/Тренировки.Мотивация.Идеальное телосложение.md",
-    "02-Calendar/Daily/2022-08-11.md",
-    "02-Calendar/Daily/2022-07-31.md",
-    "02-Calendar/Daily/2022-06-29.md",
-    "02-Calendar/Daily/2022-06-19.md",
-    "02-Calendar/Daily/2022-05-13.md",
-    "02-Calendar/Daily/2022-04-30.md",
-    "03-Canvas/Book Board.canvas",
-    "08-Files/Snaptik.app_7346249922120895749.mp4",
-    "08-Files/Snaptik.app_7342818241321946376.mp4",
-    "03-Canvas/Inspiration Board.canvas",
-    "08-Files/Pasted image 20240529162953.png",
-    "08-Files/Pasted image 20240529160503.png",
-    "08-Files/Pasted image 20240529095738.png",
-    "08-Files/Pasted image 20240522215920.png",
-    "08-Files/Pasted image 20240519221037.png",
-    "08-Files/IMG_5031.jpg",
-    "08-Files/IMG_5011.jpg",
-    "08-Files/IMG_5003.jpg",
-    "03-Canvas/Grow Board.canvas",
-    "03-Canvas/Look Board.canvas",
-    "08-Files/Miscellaneous/анализы 2023 3.0.pdf",
-    "03-Canvas/Health Board.canvas",
-    "08-Files/Miscellaneous/v09044g40000cobvnffog65i1dtubor0.mp4",
-    "08-Files/TikTok/b8a7878658fc7df72bcfbccb129bcadf.mp4",
-    "08-Files/Miscellaneous/Snaptik.app_7319098771906874631.mp4",
-    "08-Files/Miscellaneous/Snaptik.app_7201711971589197099.mp4",
-    "08-Files/Miscellaneous/Snaptik.app_7149135875740388614.mp4",
-    "08-Files/Miscellaneous/Snaptik.app_7313556651024469253.mp4",
-    "08-Files/Miscellaneous/Snaptik.app_7299646843569425665.mp4",
-    "03-Canvas/Motivation Board.canvas",
-    "03-Canvas/Goal Board.canvas",
-    "03-Canvas/Wish Board.canvas"
+    "Последние заметки.md",
+    "Меню.md",
+    "Life Core.md",
+    "09-Archives/06-Statistics/Статистика.md",
+    "09-Archives/06-Statistics/Статистика.Книги 2023.md",
+    "09-Archives/06-Statistics/Статистика.Тренировки 2022.md",
+    "09-Archives/06-Statistics/Статистика.Тренировки 2023.md",
+    "09-Archives/06-Statistics/Статистика.Фильмы.md",
+    "07-Sources/Courses/BMCHN.Привычки.md",
+    "07-Sources/Webinars/Факторы влияющие на снижение и набор веса.md",
+    "08-Files/Books/Быть интровертом - Дэбби Танг.pdf",
+    "08-Files/Books/Building a Second Brain - Tiago Forte.pdf",
+    "08-Files/Books/Buddha-in-Blue-Jean.pdf",
+    "08-Files/Diary/9ADA22A4-F0B4-4060-A74D-6FFFEB2E7839.jpeg",
+    "08-Files/Diary/09C8551C-5F57-4F6E-A9FB-94092F83429C.jpeg",
+    "08-Files/Diary/9A6AF414-25E2-4218-874B-A8E94B3AADA1.jpeg",
+    "08-Files/Diary/14CE1CF2-2662-49F1-8E9E-1EB3A2309BCF.jpeg",
+    "08-Files/Diary/8EB5CBFB-CB64-4F10-8067-2167463E08AC.jpeg",
+    "08-Files/Diary/8BE2EDAF-0E87-4ADB-94C3-1F04EE5631AB.jpeg",
+    "08-Files/Diary/8AAFFA56-22AF-4F01-82D8-1E65AADBC56A.jpeg",
+    "08-Files/Diary/6F0C8D9B-D30A-4812-B2D6-9068EBE75D98.jpeg",
+    "08-Files/Diary/5A1C157A-C456-4451-92D2-C3F67C059DEC.jpeg",
+    "08-Files/Diary/3A0DD5E1-E50A-4BDE-B8DB-A39D502DED68.jpeg",
+    "00-Inbox",
+    "04-Canvas/Wish Board.canvas",
+    "03-Canvas/Фото стена.canvas",
+    "08-Files/TikTok/Snaptik.app_7342818241321946376.mp4",
+    "08-Files/Diary/-1919548165380291309.mp4",
+    "08-Files/TikTok/7130550094423723270.mp4",
+    "08-Files/TikTok/@llucxo-7052764295834209541.mp4",
+    "08-Files/TikTok/Snaptik.app_7346249922120895749.mp4",
+    "08-Files/Miscellaneous/анализы 2023 3.0.pdf"
   ]
 }

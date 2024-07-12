@@ -2,7 +2,7 @@
   "promptDelete": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "01-Base",
+  "newFileFolderPath": "00-Inbox",
   "attachmentFolderPath": "08-Files",
   "foldHeading": true,
   "foldIndent": true,
