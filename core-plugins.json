@@ -14,9 +14,11 @@
   "command-palette",
   "slash-command",
   "bookmarks",
+  "zk-prefixer",
   "random-note",
   "outline",
   "word-count",
+  "audio-recorder",
   "file-recovery",
   "sync"
 ]
