@@ -490,5 +490,14 @@
       ],
       "key": "B"
     }
-  ]
+  ],
+  "zk-prefixer": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "5"
+    }
+  ],
+  "workspace:goto-tab-5": []
 }

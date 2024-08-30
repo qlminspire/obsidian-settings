@@ -1,0 +1,32 @@
+{
+  "dateHighlightedFormat": "yyyy-MM-dd HH:mm:ss",
+  "dateSavedFormat": "yyyy-MM-dd HH:mm:ss",
+  "apiKey": "4341e1b4-248c-4b9b-9e0f-e6381b140881",
+  "filter": "ALL",
+  "syncAt": "2024-08-30T22:33:39",
+  "customQuery": "in:all AND label:Личное AND label:@omnivore-to-obsidian",
+  "template": "Название:: {{{title}}}\nАвтор:: [[@{{{author}}}]]\nИсточник:: #источник/статья\nНачало::\nЗавершение:: {{#dateArchived}}[[{{#formatDate}}{{dateArchived}},yyyy-MM-dd{{/formatDate}}]]{{/dateArchived}}\nСтатус:: {{^dateArchived}}#статус/не_начат{{/dateArchived}}{{#dateArchived}}#статус/обзор{{/dateArchived}}\nРейтинг::\nКатегория:: {{#labels}}[[{{{name}}}]] {{/labels}}\nСсылка:: {{{originalUrl}}}\n\n---\n\n{{#highlights.length}}\n# Заметки\n\n{{#highlights}}\n> {{{text}}} [⤴️]({{{highlightUrl}}}) {{#labels}} #{{name}} {{/labels}} ^{{{highlightID}}}\n{{#note}}\n\n%% {{{note}}} %%\n{{/note}}\n\n{{/highlights}}\n{{/highlights.length}}",
+  "highlightOrder": "LOCATION",
+  "syncing": false,
+  "folder": "98-Omnivore/",
+  "folderDateFormat": "",
+  "endpoint": "https://api-prod.omnivore.app/api/graphql",
+  "filename": "{{{title}}} - {{{author}}}",
+  "filenameDateFormat": "yyyy-MM-dd",
+  "attachmentFolder": "98-Omnivore/attachments",
+  "version": "1.10.4",
+  "isSingleFile": false,
+  "frequency": 0,
+  "intervalId": 0,
+  "frontMatterVariables": [],
+  "frontMatterTemplate": "id: {{{id}}}\ncreate_date: {{{dateSaved}}}",
+  "syncOnStart": true,
+  "enableHighlightColorRender": false,
+  "highlightManagerId": "omni",
+  "highlightColorMapping": {
+    "yellow": "#fff3a3",
+    "red": "#ff5582",
+    "blue": "#adccff",
+    "green": "#bbfabb"
+  }
+}

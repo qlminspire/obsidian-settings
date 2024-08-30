@@ -60,5 +60,6 @@
     "99-Archive/"
   ],
   "showInlineTitle": true,
-  "showRibbon": true
+  "showRibbon": true,
+  "propertiesInDocument": "visible"
 }

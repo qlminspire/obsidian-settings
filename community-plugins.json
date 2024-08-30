@@ -1,5 +1,4 @@
 [
-  "obsidian-kanban",
   "templater-obsidian",
   "obsidian-contextual-typography",
   "dataview",
@@ -8,5 +7,6 @@
   "obsidian-minimal-settings",
   "obsidian-excalidraw-plugin",
   "calendar",
-  "oz-clear-unused-images"
+  "dbfolder",
+  "obsidian-omnivore"
 ]

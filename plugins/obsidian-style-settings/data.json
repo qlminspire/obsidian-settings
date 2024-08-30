@@ -41,5 +41,13 @@
   "encore-settings@@theme-dark": "encore-theme-dark-obsidian",
   "Appearance-dark@@theme-dark-style-select": "theme-dark-background-default",
   "Appearance-dark@@card-layout-open-dark": true,
-  "Appearance-light@@card-layout-open-light": true
+  "Appearance-light@@card-layout-open-light": true,
+  "Appearance-light@@theme-light-style-select": "theme-light-background-default",
+  "Appearance-dark@@mod-left-split-background-select-dark": "mod-left-split-background-primary-dark",
+  "Appearance-dark@@card-highlight-dark": false,
+  "media-grid-snippet@@content-max-width": "var(--content-base-width)",
+  "Plugin@@DB-table-bg-color": "DB-table-bg-color-default",
+  "Plugin@@DB-table-full-width-off": false,
+  "Plugin@@Surfing-bookmark-bar-hide": false,
+  "Plugin@@colorful-checkbox": false
 }
