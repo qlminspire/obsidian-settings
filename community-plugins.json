@@ -8,5 +8,7 @@
   "obsidian-excalidraw-plugin",
   "calendar",
   "dbfolder",
-  "obsidian-omnivore"
+  "obsidian-omnivore",
+  "obsidian-linter",
+  "chronology"
 ]
