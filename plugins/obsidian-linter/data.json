@@ -11,21 +11,21 @@
       "ignore-keys": ""
     },
     "escape-yaml-special-characters": {
-      "enabled": false,
+      "enabled": true,
       "try-to-escape-single-line-arrays": false
     },
     "force-yaml-escape": {
       "enabled": false,
-      "force-yaml-escape-keys": ""
+      "force-yaml-escape-keys": "Автор"
     },
     "format-tags-in-yaml": {
-      "enabled": false
+      "enabled": true
     },
     "format-yaml-array": {
-      "enabled": false,
+      "enabled": true,
       "alias-key": true,
       "tag-key": true,
-      "default-array-style": "single-line",
+      "default-array-style": "multi-line",
       "default-array-keys": true,
       "force-single-line-array-style": "",
       "force-multi-line-array-style": ""
@@ -36,7 +36,7 @@
     },
     "move-tags-to-yaml": {
       "enabled": false,
-      "how-to-handle-existing-tags": "Nothing",
+      "how-to-handle-existing-tags": "Remove hashtag",
       "tags-to-ignore": ""
     },
     "remove-yaml-keys": {
@@ -69,13 +69,13 @@
     },
     "yaml-title": {
       "enabled": false,
-      "title-key": "title",
+      "title-key": "Название",
       "mode": "first-h1-or-filename-if-h1-missing"
     },
     "yaml-title-alias": {
       "enabled": false,
       "preserve-existing-alias-section-style": true,
-      "keep-alias-that-matches-the-filename": false,
+      "keep-alias-that-matches-the-filename": true,
       "use-yaml-key-to-keep-track-of-old-filename-or-heading": true,
       "alias-helper-key": "linter-yaml-title-alias"
     },
@@ -200,7 +200,7 @@
       "empty-line-after-yaml": true
     },
     "line-break-at-document-end": {
-      "enabled": false
+      "enabled": true
     },
     "move-math-block-indicators-to-their-own-line": {
       "enabled": false
@@ -270,7 +270,13 @@
   "displayLintOnFileChangeNotice": true,
   "settingsConvertedToConfigKeyValues": true,
   "foldersToIgnore": [],
-  "filesToIgnore": [],
+  "filesToIgnore": [
+    {
+      "label": "Excalidraw",
+      "match": "(excalidraw)",
+      "flags": ""
+    }
+  ],
   "linterLocale": "system-default",
   "logLevel": "ERROR",
   "lintCommands": [

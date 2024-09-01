@@ -25,6 +25,13 @@
     "excalidraw-export-embed-scene": "checkbox",
     "excalidraw-embeddable-theme": "text",
     "Тип": "multitext",
-    "Категория": "multitext"
+    "Категория": "multitext",
+    "Источник": "multitext",
+    "Начало": "date",
+    "Завершение": "date",
+    "Рейтинг": "number",
+    "Автор": "multitext",
+    "Ссылка": "text",
+    "create_date": "date"
   }
 }
