@@ -32,6 +32,8 @@
     "Рейтинг": "number",
     "Автор": "multitext",
     "Ссылка": "text",
-    "create_date": "date"
+    "Платформа": "multitext",
+    "create_date": "datetime",
+    "update_date": "datetime"
   }
 }
