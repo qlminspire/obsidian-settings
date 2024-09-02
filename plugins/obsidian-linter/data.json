@@ -31,7 +31,7 @@
       "force-multi-line-array-style": ""
     },
     "insert-yaml-attributes": {
-      "enabled": false,
+      "enabled": true,
       "text-to-insert": "aliases:"
     },
     "move-tags-to-yaml": {
