@@ -111,7 +111,8 @@
     },
     "auto-correct-common-misspellings": {
       "enabled": false,
-      "ignore-words": ""
+      "ignore-words": "",
+      "extra-auto-correct-files": []
     },
     "blockquote-style": {
       "enabled": true,
