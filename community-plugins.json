@@ -12,5 +12,7 @@
   "obsidian-linter",
   "obsidian-outliner",
   "file-explorer-note-count",
-  "tag-wrangler"
+  "tag-wrangler",
+  "find-unlinked-files",
+  "oz-clear-unused-images"
 ]

@@ -1,3 +1,13 @@
 {
-  "pinned": null
+  "pinned": [
+    "global-search:open",
+    "workspaces:open-modal",
+    "obsidian-omnivore:sync",
+    "obsidian-omnivore:resync",
+    "find-unlinked-files:find-empty-files",
+    "find-unlinked-files:find-unresolved-link",
+    "find-unlinked-files:find-files-without-tags",
+    "oz-clear-unused-images:clear-images-obsidian",
+    "obsidian-linter:lint-all-files"
+  ]
 }

@@ -10,7 +10,6 @@
   "page-preview",
   "daily-notes",
   "templates",
-  "note-composer",
   "command-palette",
   "slash-command",
   "bookmarks",
@@ -18,7 +17,7 @@
   "random-note",
   "outline",
   "word-count",
-  "audio-recorder",
+  "workspaces",
   "file-recovery",
   "sync"
 ]
