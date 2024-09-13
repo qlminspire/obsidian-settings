@@ -1,0 +1,41 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": false,
+  "statusBar_trigger_indicator": false,
+  "folder_tag_pattern": [
+    {
+      "folder": "02-Permanent/Training",
+      "tag": "#тренировка/упражнение",
+      "pattern": ""
+    },
+    {
+      "folder": "02-Permanent/Apps",
+      "tag": "#приложение",
+      "pattern": ""
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": true,
+  "excluded_folder": [
+    {
+      "folder": "/"
+    },
+    {
+      "folder": "04-Calendar"
+    },
+    {
+      "folder": "06-Dashboards"
+    },
+    {
+      "folder": "08-Files"
+    },
+    {
+      "folder": "09-Templates"
+    },
+    {
+      "folder": "98-Omnivore"
+    },
+    {
+      "folder": "99-Archive"
+    }
+  ]
+}
