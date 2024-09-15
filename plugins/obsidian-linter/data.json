@@ -123,7 +123,7 @@
     },
     "default-language-for-code-fences": {
       "enabled": false,
-      "default-language": "cs"
+      "default-language": ""
     },
     "emphasis-style": {
       "enabled": true,
@@ -177,7 +177,7 @@
       "inner-new-lines": true
     },
     "consecutive-blank-lines": {
-      "enabled": false
+      "enabled": true
     },
     "convert-spaces-to-tabs": {
       "enabled": false,

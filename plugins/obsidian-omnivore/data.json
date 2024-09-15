@@ -3,7 +3,7 @@
   "dateSavedFormat": "yyyy-MM-dd HH:mm:ss",
   "apiKey": "4341e1b4-248c-4b9b-9e0f-e6381b140881",
   "filter": "ARCHIVED",
-  "syncAt": "2024-09-13T11:58:16",
+  "syncAt": "2024-09-15T17:11:53",
   "customQuery": "in:archive AND label:Личное AND label:_omnivore-to-obsidian",
   "template": "{{#highlights.length}}\n## Заметки\n\n{{#highlights}}\n> {{{text}}} [⤴️]({{{highlightUrl}}}) {{#labels}} #{{name}} {{/labels}} ^{{{highlightID}}}\n{{#note}}\n\n%% \n{{{note}}} \n%%\n{{/note}}\n\n{{/highlights}}\n{{/highlights.length}}",
   "highlightOrder": "LOCATION",

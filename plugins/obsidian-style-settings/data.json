@@ -80,9 +80,6 @@
   "Editor@@h1-divider-on": true,
   "Editor@@h2-divider-on": true,
   "Editor@@h2-color-select": "h2-color-default",
-  "Editor@@checkbox-color@@dark": "#F1BE8B",
-  "Editor@@checkbox-border-color-hover@@dark": "#F1BE8B",
-  "Editor@@checkbox-color-hover@@dark": "#F1BE8B",
   "Editor@@checkbox-color@@light": "#F1BE8B",
   "Editor@@checkbox-color-hover@@light": "#F1BE8B",
   "Editor@@checkbox-border-color-hover@@light": "#F1BE8B"
