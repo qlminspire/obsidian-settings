@@ -58,7 +58,7 @@
   "Components@@folder-font-bold": false,
   "Components@@file-icon-remove": false,
   "Components@@colorful-folder": false,
-  "Components@@outline-enhanced": true,
+  "Components@@outline-enhanced": false,
   "Components@@new-tab-btn-select": "new-tab-btn-default",
   "Components@@new-tab-image-select": "new-tab-image-default",
   "Components@@immersive-canvas": false,
@@ -79,5 +79,6 @@
   "Mobile@@card-layout-pad-open": true,
   "Editor@@h1-divider-on": true,
   "Editor@@h2-divider-on": true,
-  "Editor@@h2-color-select": "h2-color-default"
+  "Editor@@h2-color-select": "h2-color-default",
+  "minimal-style@@metadata-label-width": 10
 }

@@ -1,7 +1,13 @@
+.image-embed,
+.image-embed img {
+    max-width: 450px;
+}
+
 .image-embed {
     max-width: 450px;
 }
 
-.video-embed {
+.video-embed,
+.video-embed video {
     max-width: 350px;
 }
