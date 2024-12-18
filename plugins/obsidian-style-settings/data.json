@@ -80,5 +80,10 @@
   "Editor@@h1-divider-on": true,
   "Editor@@h2-divider-on": true,
   "Editor@@h2-color-select": "h2-color-default",
-  "minimal-style@@metadata-label-width": 10
+  "minimal-style@@metadata-label-width": 10,
+  "Appearance-light@@accent-color-override-light": false,
+  "Editor@@checkbox-color@@light": "#88AAA5",
+  "Editor@@checkbox-color-hover@@light": "#AA88A7",
+  "Editor@@checkbox-color@@dark": "#88AAA5",
+  "Editor@@checkbox-color-hover@@dark": "#AA88A7"
 }

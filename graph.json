@@ -1,37 +1,51 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:07-Sources/Books  ",
+      "query": "path:01-Literature",
+      "color": {
+        "a": 1,
+        "rgb": 14798488
+      }
+    },
+    {
+      "query": "path:04-Calendar",
+      "color": {
+        "a": 1,
+        "rgb": 8240831
+      }
+    },
+    {
+      "query": "path:00-Fleeting  ",
       "color": {
         "a": 1,
         "rgb": 14701138
       }
     },
     {
-      "query": "path:02-Calendar",
+      "query": "path:02-Permanent  ",
       "color": {
         "a": 1,
-        "rgb": 8240831
+        "rgb": 11657298
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1.03151041666667,
   "lineSizeMultiplier": 0.98046875,
   "collapse-forces": false,
-  "centerStrength": 0.5234375,
-  "repelStrength": 10,
+  "centerStrength": 0.703302411873841,
+  "repelStrength": 10.0764378478664,
   "linkStrength": 1,
   "linkDistance": 305,
-  "scale": 0.1421482170317055,
+  "scale": 0.232444207700122,
   "close": true
 }

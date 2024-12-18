@@ -1,13 +1,14 @@
 {
   "accentColor": "#88aaa5",
   "baseFontSize": 18,
-  "cssTheme": "Minimal",
+  "cssTheme": "Border",
   "theme": "obsidian",
   "translucency": false,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "fixed-media-size",
-    "media-grid-snippet"
+    "media-grid-snippet",
+    "habit-tracker-21"
   ],
   "nativeMenus": true,
   "showViewHeader": true,
