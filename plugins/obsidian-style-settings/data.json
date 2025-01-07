@@ -42,10 +42,10 @@
   "Appearance-dark@@theme-dark-style-select": "theme-dark-background-default",
   "Appearance-dark@@card-layout-open-dark": true,
   "Appearance-light@@card-layout-open-light": true,
-  "Appearance-light@@theme-light-style-select": "theme-light-background-default",
+  "Appearance-light@@theme-light-style-select": "theme-light-background-adapt",
   "Appearance-dark@@mod-left-split-background-select-dark": "mod-left-split-background-primary-dark",
   "Appearance-dark@@card-highlight-dark": false,
-  "media-grid-snippet@@content-max-width": "var(--content-base-width)",
+  "media-grid-snippet@@content-max-width": "calc(var(--content-base-width) + 5%)",
   "Plugin@@DB-table-bg-color": "DB-table-bg-color-default",
   "Plugin@@DB-table-full-width-off": false,
   "Plugin@@Surfing-bookmark-bar-hide": false,
@@ -85,5 +85,11 @@
   "Editor@@checkbox-color@@light": "#88AAA5",
   "Editor@@checkbox-color-hover@@light": "#AA88A7",
   "Editor@@checkbox-color@@dark": "#88AAA5",
-  "Editor@@checkbox-color-hover@@dark": "#AA88A7"
+  "Editor@@checkbox-color-hover@@dark": "#AA88A7",
+  "Appearance-light@@mod-left-split-background-select-light": "mod-left-split-background-primary-light",
+  "Appearance-light@@background-underlying-select-light": "background-underlying-default-light",
+  "Editor@@img-center-align": false,
+  "Editor@@editor-grid-background-pattren": false,
+  "Appearance-dark@@workspace-divider-transparent-dark": false,
+  "Editor@@img-darken": false
 }
