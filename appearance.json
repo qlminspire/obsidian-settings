@@ -1,18 +1,18 @@
 {
   "accentColor": "#88aaa5",
-  "baseFontSize": 17,
+  "baseFontSize": 16,
   "cssTheme": "Sanctum reborn",
   "theme": "moonstone",
   "translucency": false,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
-    "fixed-media-size",
-    "media-grid-snippet",
-    "habit-tracker-21"
+    "habit-tracker-21",
+    "media-grid-snippet"
   ],
   "nativeMenus": true,
   "showViewHeader": true,
   "textFontFamily": "JetBrains Mono,Gill Sans,Cascadia Code PL SemiLight,Cascadia Code PL,Symbols Nerd Font,JetBrainsMono Nerd Font Mono,Symbols Nerd Font Mono,iA Writer Mono S,Cascadia Mono PL",
   "interfaceFontFamily": "JetBrains Mono,Gill Sans,Cascadia Code PL",
-  "monospaceFontFamily": ""
+  "monospaceFontFamily": "",
+  "showRibbon": true
 }
