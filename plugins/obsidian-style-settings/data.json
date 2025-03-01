@@ -92,11 +92,8 @@
   "Editor@@editor-grid-background-pattren": false,
   "Appearance-dark@@workspace-divider-transparent-dark": false,
   "Editor@@img-darken": false,
-  "sanctum@@use-custom-accent": true,
-  "sanctum@@custom-accent-color": "#63959C",
   "sanctum@@aside-counter": false,
   "sanctum@@aside-border": false,
-  "sanctum@@enable-alternative-checkboxes": true,
   "sanctum@@hide-vault-title": false,
   "sanctum@@wrap-nav-titles": false,
   "sanctum@@checkbox-color-rgb": "99, 149, 156",
@@ -112,5 +109,13 @@
   "sanctum@@table-column-border": true,
   "sanctum@@table-cell-border": true,
   "sanctum@@indentation-guide-active": "rgba(var(--mono-rgb-100), 0.3)",
-  "sanctum@@active-line-accent": "transparent"
+  "sanctum@@active-line-accent": "transparent",
+  "minimal-advanced@@styled-scrollbars": false,
+  "minimal-advanced@@hide-markdown": false,
+  "sanctum@@blockquote-marker": true,
+  "sanctum@@blockquote-border": false,
+  "sanctum@@blockquote-border-thickness": 2,
+  "sanctum@@blockquote-font-style": "normal",
+  "sanctum@@blockquote-border-color@@light": "#88AAA5",
+  "sanctum@@blockquote-border-color@@dark": "#88AAA5"
 }
