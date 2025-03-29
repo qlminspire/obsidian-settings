@@ -5109,13 +5109,18 @@ body:not(.hider-sidebar-buttons) .workspace-tab-header-tab-list:has(+.sidebar-to
 }
 
 /* tab style */
+
+.workspace-tab-header:has(+.workspace-tab-header.is-active) .workspace-tab-header-inner::after {
+    opacity: 0;
+}
+
 body {
     --border-radius-activated-tab-header-light: 6px;
     --border-radius-activated-tab-header-dark: 6px;
     --color-activated-tab-header-light: var(--text-normal);
     --color-activated-tab-header-dark: var(--text-normal);
     --background-activated-tab-header-light: var(--background-primary);
-    --shadow-activated-tab-header-light: 0px 0px 6px hsla(var(--accent-h), 18%, 80%, 0.4), 0px 0px 2px hsla(var(--accent-h), 18%, 80%, 0.2), 0 0 0 1px var(--background-modifier-border);
+    --shadow-activated-tab-header-light: 0px 0px 6px hsla(var(--accent-h), 18%, 80%, 0.4), 0px 0px 2px hsla(var(--accent-h), 18%, 80%, 0.2), 0 0 0 1px var(--background-modifier-border), 0px 4px 8px -4px hsla(var(--accent-h), 18%, 80%, 0.2), inset 0px -1px 0px rgba(0, 0, 0, 0.04), inset 0px 2px 0.75px rgba(255, 255, 255, 0.4), inset 0px -3px 0.75px rgba(0, 0, 0, 0.04);
     --background-activated-tab-header-dark: var(--background-modifier-active-hover);
     --shadow-activated-tab-header-dark: inset 0 0 0 1px var(--background-modifier-border);
 }
@@ -5673,7 +5678,7 @@ body:not(.is-mobile) .embedded-backlinks .nav-header~.search-input-container {
 }
 
 /* document search replace */
-#cMenuToolbarModalBar.top {
+#editingToolbarModalBar.top {
     z-index: var(--layer-status-bar);
 }
 
@@ -5877,6 +5882,8 @@ body:not(.new-tab-text-btn-restore) .workspace-leaf-content[data-type="empty"] .
 body.is-mobile:not(.new-tab-text-btn-restore) .workspace-leaf-content[data-type="empty"] .empty-state-action:before {
     height: 24px !important;
     width: 24px !important;
+    -webkit-mask-size: cover;
+    -webkit-mask-repeat: no-repeat;
 }
 
 body:not(.new-tab-text-btn-restore) .workspace-leaf-content[data-type="empty"] .empty-state-action:nth-child(1):before {
@@ -6608,8 +6615,8 @@ body:not(.is-phone) .vertical-tab-nav-item.is-active {
     --input-shadow-hover: var(--input-shadow-hover-light);
 
     --input-radius-light: 5px;
-    --input-shadow-light: 0px 4px 8px -4px rgba(0, 0, 0, 0.16), inset 0px -1px 0px rgba(0, 0, 0, 0.04), inset 0px 0px 0px 1px rgba(0, 0, 0, 0.12), inset 0px 2px 0.75px rgba(255, 255, 255, 0.24), inset 0px -3px 0.75px rgba(0, 0, 0, 0.04);
-    --input-shadow-hover-light: 0px 4px 8px -4px rgba(0, 0, 0, 0.16), inset 0px -1px 0px rgba(0, 0, 0, 0.04), inset 0px 0px 0px 1px rgba(0, 0, 0, 0.12), inset 0px 2px 0.75px rgba(255, 255, 255, 0.24), inset 0px -3px 0.75px rgba(0, 0, 0, 0.04);
+    --input-shadow-light: 0px 4px 8px -4px rgba(0, 0, 0, 0.16), inset 0px -1px 0px rgba(0, 0, 0, 0.04), inset 0px 0px 0px 1px rgba(0, 0, 0, 0.12), inset 0px 2px 0.75px rgba(255, 255, 255, 0.4), inset 0px -3px 0.75px rgba(0, 0, 0, 0.04);
+    --input-shadow-hover-light: 0px 4px 8px -4px rgba(0, 0, 0, 0.16), inset 0px -1px 0px rgba(0, 0, 0, 0.04), inset 0px 0px 0px 1px rgba(0, 0, 0, 0.12), inset 0px 2px 0.75px rgba(255, 255, 255, 0.4), inset 0px -3px 0.75px rgba(0, 0, 0, 0.04);
 }
 
 .theme-dark {
@@ -8775,7 +8782,7 @@ body:not(.is-mobile) .workspace-split.mod-left-split .workspace-sidedock-vault-p
 .sidebar-toggle-button .clickable-icon,
 .workspace-tab-header-new-tab .clickable-icon,
 .workspace-tab-header-tab-list .clickable-icon,
-.view-header .clickable-icon {
+.view-header .clickable-icon:not(.smtcmp-approve-button, .smtcmp-reject-button) {
     padding: 7px;
     height: 32px;
     width: 32px;
@@ -8897,6 +8904,15 @@ svg.sidebar-left {
 
 .is-tablet .workspace-drawer .nav-header {
     border-top: var(--border-width) solid transparent;
+}
+
+.is-phone .mod-root .view-header {
+    gap: 4px;
+}
+
+.is-phone .mod-root .view-header .view-header-title-container {
+    flex: 10;
+    justify-content: flex-start;
 }
 
 /* tablet card layout */
