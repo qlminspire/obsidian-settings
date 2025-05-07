@@ -1,14 +1,14 @@
 {
   "accentColor": "#88aaa5",
-  "baseFontSize": 17,
+  "baseFontSize": 16,
   "cssTheme": "Sanctum reborn",
   "theme": "moonstone",
   "translucency": false,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
+    "fixed-media-size",
     "habit-tracker-21",
-    "media-grid-snippet",
-    "fixed-media-size"
+    "media-grid-snippet"
   ],
   "nativeMenus": true,
   "showViewHeader": true,
