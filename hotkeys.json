@@ -1,12 +1,4 @@
 {
-  "switcher:open": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "O"
-    }
-  ],
   "random-note": [
     {
       "modifiers": [
@@ -587,5 +579,22 @@
     }
   ],
   "insert-template": [],
-  "app:toggle-default-new-pane-mode": []
+  "app:toggle-default-new-pane-mode": [],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ]
 }

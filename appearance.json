@@ -6,9 +6,9 @@
   "translucency": false,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
+    "fixed-media-size",
     "habit-tracker-21",
-    "media-grid-snippet",
-    "fixed-media-size"
+    "media-grid-snippet"
   ],
   "nativeMenus": true,
   "showViewHeader": true,
