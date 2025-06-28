@@ -1,14 +1,13 @@
 {
   "accentColor": "#88aaa5",
-  "baseFontSize": 17,
-  "cssTheme": "Sanctum reborn",
-  "theme": "moonstone",
+  "baseFontSize": 19,
+  "cssTheme": "Ultra Lobster",
+  "theme": "obsidian",
   "translucency": false,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
-    "fixed-media-size",
-    "habit-tracker-21",
-    "media-grid-snippet"
+    "media-grid-snippet",
+    "fixed-media-size"
   ],
   "nativeMenus": true,
   "showViewHeader": true,
