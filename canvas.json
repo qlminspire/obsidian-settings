@@ -2,6 +2,6 @@
   "snapToObjects": true,
   "snapToGrid": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "06-Dashboards",
+  "newFileFolderPath": "99-Meta/Dashboards",
   "cardLabelVisibility": "always"
 }

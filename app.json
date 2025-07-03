@@ -2,8 +2,8 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "00-Fleeting",
-  "attachmentFolderPath": "08-Files",
+  "newFileFolderPath": "04-Fleeting",
+  "attachmentFolderPath": "02-Resources",
   "foldHeading": true,
   "foldIndent": true,
   "legacyEditor": false,
@@ -52,9 +52,9 @@
   "showIndentGuide": true,
   "rightToLeft": false,
   "userIgnoreFilters": [
-    "08-Files/TikTok/",
-    "99-Archive/"
+    "02-Resources/TikTok/"
   ],
   "showInlineTitle": true,
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "tabSize": 4
 }

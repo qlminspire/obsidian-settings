@@ -4,7 +4,7 @@
     "Main Homepage": {
       "value": "Входящее",
       "kind": "File",
-      "openOnStartup": true,
+      "openOnStartup": false,
       "openMode": "Replace all open notes",
       "manualOpenMode": "Keep open notes",
       "view": "Default view",
@@ -36,5 +36,5 @@
       "hideReleaseNotes": false
     }
   },
-  "separateMobile": true
+  "separateMobile": false
 }
