@@ -29,6 +29,6 @@
   "sync": true,
   "starred": true,
   "webviewer": false,
-  "footnotes": false,
+  "footnotes": true,
   "bases": true
 }

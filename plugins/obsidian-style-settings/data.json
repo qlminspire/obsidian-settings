@@ -109,7 +109,6 @@
   "sanctum@@table-cell-border": true,
   "sanctum@@indentation-guide-active": "rgba(var(--mono-rgb-100), 0.3)",
   "sanctum@@active-line-accent": "transparent",
-  "minimal-advanced@@styled-scrollbars": false,
   "minimal-advanced@@hide-markdown": false,
   "sanctum@@blockquote-marker": true,
   "sanctum@@blockquote-border": false,
