@@ -1,0 +1,27 @@
+/* Настройки отображения YAML свойств в режиме чтения и режиме редактирования*/
+
+.metadata-property{
+    border-bottom: 0 !important;
+}
+
+.metadata-property-key-input{
+    border-bottom: 0 !important;
+}
+
+.metadata-input-number{
+     border-bottom: 0 !important;
+}
+
+/* Настройки отображения тегов в режиме чтения и режиме редактирования*/
+
+.cm-hashtag.cm-hashtag-begin{
+    padding-inline-start:0 !important;
+}
+
+.cm-hashtag.cm-hashtag-end{
+    padding-inline-end:0 !important;
+}
+
+a .tag{
+    padding:0 !important;
+}

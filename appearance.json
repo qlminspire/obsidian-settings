@@ -1,5 +1,5 @@
 {
-  "accentColor": "#88aaa5",
+  "accentColor": "#aaa588",
   "baseFontSize": 18,
   "cssTheme": "Minimal",
   "theme": "obsidian",
@@ -7,7 +7,9 @@
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "media-grid-snippet",
-    "fixed-media-size"
+    "fixed-media-size",
+    "obsidian-notebook-theme",
+    "custom"
   ],
   "nativeMenus": true,
   "showViewHeader": true,
