@@ -1,7 +1,7 @@
 {
   "deleteOption": ".trash",
   "logsModal": true,
-  "excludedFolders": "",
+  "excludedFolders": "02-Resources/Miscellaneous",
   "ribbonIcon": true,
-  "excludeSubfolders": false
+  "excludeSubfolders": true
 }

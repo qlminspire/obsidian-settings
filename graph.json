@@ -7,34 +7,6 @@
   "showOrphans": true,
   "collapse-color-groups": true,
   "colorGroups": [
-    {
-      "query": "path:01-Literature",
-      "color": {
-        "a": 1,
-        "rgb": 14798488
-      }
-    },
-    {
-      "query": "path:04-Calendar",
-      "color": {
-        "a": 1,
-        "rgb": 8240831
-      }
-    },
-    {
-      "query": "path:00-Fleeting  ",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "path:02-Permanent  ",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
-      }
-    }
   ],
   "collapse-display": true,
   "showArrow": false,

@@ -1,15 +1,14 @@
 {
   "accentColor": "#aaa588",
   "baseFontSize": 18,
-  "cssTheme": "Minimal",
+  "cssTheme": "Cupertino",
   "theme": "obsidian",
   "translucency": false,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
-    "media-grid-snippet",
-    "fixed-media-size",
     "obsidian-notebook-theme",
-    "custom"
+    "custom",
+    "media-grid-snippet"
   ],
   "nativeMenus": true,
   "showViewHeader": true,
