@@ -171,7 +171,7 @@
   "cupertino@@windows-mode-off": true,
   "cupertino@@sidedock-glass-off": false,
   "cupertino@@sidedock-glass-tint-off": false,
-  "cupertino@@active-line-off": false,
+  "cupertino@@active-line-off": true,
   "cupertino@@block-width-off": false,
   "cupertino@@center-tabs-off": false,
   "cupertino@@hide-frontmatter-off": false,

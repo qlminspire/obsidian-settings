@@ -35,6 +35,7 @@
     "Платформа": "multitext",
     "create_date": "datetime",
     "update_date": "datetime",
-    "excalidraw-embed-md": "checkbox"
+    "excalidraw-embed-md": "checkbox",
+    "Добавление": "date"
   }
 }
