@@ -1,7 +1,7 @@
 {
   "accentColor": "#aaa588",
-  "baseFontSize": 16,
-  "cssTheme": "Cupertino",
+  "baseFontSize": 17,
+  "cssTheme": "Minimal",
   "theme": "obsidian",
   "translucency": false,
   "baseFontSizeAction": true,

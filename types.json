@@ -36,6 +36,7 @@
     "create_date": "datetime",
     "update_date": "datetime",
     "excalidraw-embed-md": "checkbox",
-    "Добавление": "date"
+    "Добавление": "date",
+    "excalidraw-export-internal-links": "checkbox"
   }
 }
