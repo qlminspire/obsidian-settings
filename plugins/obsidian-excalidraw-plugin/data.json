@@ -1,4 +1,6 @@
 {
+  "copyLinkToElemenetAnchorTo100": false,
+  "copyFrameLinkByName": false,
   "disableDoubleClickTextEditing": false,
   "folder": "99-Meta/Excalidraw",
   "cropFolder": "",
@@ -74,6 +76,7 @@
   "focusOnFileTab": false,
   "openInMainWorkspace": true,
   "showLinkBrackets": true,
+  "syncElementLinkWithText": false,
   "allowCtrlClick": true,
   "forceWrap": false,
   "pageTransclusionCharLimit": 200,
@@ -110,7 +113,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.15.3",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.19.2",
     "libraryItems": []
   },
   "imageElementNotice": true,
@@ -121,7 +124,7 @@
   "mdBorderColor": "#433f3c",
   "mdCSS": "",
   "scriptEngineSettings": {},
-  "previousRelease": "2.18.0",
+  "previousRelease": "2.19.2",
   "showReleaseNotes": true,
   "compareManifestToPluginVersion": true,
   "showNewVersionNotification": true,
@@ -130,6 +133,7 @@
   "taskboneEnabled": false,
   "taskboneAPIkey": "",
   "pinnedScripts": [],
+  "sidepanelTabs": [],
   "customPens": [
     {
       "type": "default",

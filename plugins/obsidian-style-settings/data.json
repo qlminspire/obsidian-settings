@@ -184,7 +184,6 @@
   "baseline-style@@radius-modifier": 0.5,
   "baseline-style@@icon-stroke-modifier": 0.75,
   "baseline-style@@layout-style": "layout-classic",
-  "baseline-style@@input-style": "input-elevated",
   "baseline-style@@anim-motion-baseline": "cubic-bezier(0.32, 0.72, 0, 1)",
   "baseline-style@@stacked-nav-off": true,
   "baseline-style@@compact-tabs-off": true,
@@ -196,5 +195,7 @@
   "baseline-style@@h2-size": "1.75em",
   "baseline-style@@h3-size": "1.5em",
   "baseline-style@@h4-size": "1.25em",
-  "baseline-style@@blockquote-style": "blockquote-edge"
+  "baseline-style@@blockquote-style": "blockquote-edge",
+  "sanctum@@tag-border-width": "0px",
+  "sanctum@@clean-embeds": false
 }
