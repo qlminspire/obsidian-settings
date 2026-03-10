@@ -56,5 +56,6 @@
   ],
   "showInlineTitle": true,
   "propertiesInDocument": "visible",
-  "tabSize": 4
+  "tabSize": 4,
+  "deleteUnlinkedAttachments": "always"
 }

@@ -1,7 +1,7 @@
 {
   "accentColor": "#aaa588",
-  "baseFontSize": 16,
-  "cssTheme": "Sanctum reborn",
+  "baseFontSize": 17,
+  "cssTheme": "Minimal",
   "theme": "obsidian",
   "translucency": false,
   "baseFontSizeAction": true,
