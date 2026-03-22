@@ -280,8 +280,8 @@
   "settingsConvertedToConfigKeyValues": true,
   "additionalFileExtensions": [],
   "foldersToIgnore": [
-    "03-Archives/99-Meta/Templates",
-    "99-Meta/Templates"
+    "80-Archive/90-Meta/Templates",
+    "90-Meta/Templates"
   ],
   "filesToIgnore": [
     {

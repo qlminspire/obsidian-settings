@@ -1,19 +1,20 @@
 {
   "accentColor": "#aaa588",
-  "baseFontSize": 17,
-  "cssTheme": "Minimal",
-  "theme": "obsidian",
+  "baseFontSize": 16,
+  "cssTheme": "Sanctum reborn",
+  "theme": "moonstone",
   "translucency": false,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "obsidian-notebook-theme",
     "custom",
-    "media-grid-snippet"
+    "media-grid-snippet",
+    "sanctum-theme_custom-settings"
   ],
   "nativeMenus": true,
   "showViewHeader": true,
-  "textFontFamily": "JetBrains Mono,Gill Sans,Cascadia Code PL SemiLight,Cascadia Code PL,Symbols Nerd Font,JetBrainsMono Nerd Font Mono,Symbols Nerd Font Mono,iA Writer Mono S",
-  "interfaceFontFamily": "JetBrains Mono,Cascadia Code PL,Gill Sans",
+  "textFontFamily": "Gill Sans,JetBrains Mono,Cascadia Code PL SemiLight,Cascadia Code PL,Symbols Nerd Font,JetBrainsMono Nerd Font Mono,Symbols Nerd Font Mono,iA Writer Mono S",
+  "interfaceFontFamily": "Gill Sans,JetBrains Mono,Cascadia Code PL",
   "monospaceFontFamily": "",
   "showRibbon": true
 }

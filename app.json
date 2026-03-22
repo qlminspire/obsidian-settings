@@ -2,8 +2,8 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "04-Fleeting",
-  "attachmentFolderPath": "02-Resources/Miscellaneous",
+  "newFileFolderPath": "00-Inbox",
+  "attachmentFolderPath": "90-Meta/Attachments",
   "foldHeading": true,
   "foldIndent": true,
   "legacyEditor": false,
@@ -52,7 +52,7 @@
   "showIndentGuide": true,
   "rightToLeft": false,
   "userIgnoreFilters": [
-    "02-Resources/TikTok/"
+    "90-Meta/Attachments/TikTok/"
   ],
   "showInlineTitle": true,
   "propertiesInDocument": "visible",
