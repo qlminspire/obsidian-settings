@@ -1,16 +1,15 @@
 {
   "accentColor": "#aaa588",
-  "baseFontSize": 18,
+  "baseFontSize": 17,
   "cssTheme": "Sanctum reborn",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "translucency": false,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "obsidian-notebook-theme",
     "custom",
     "media-grid-snippet",
-    "sanctum-theme_custom-settings",
-    "fixed-media-size"
+    "sanctum-theme_custom-settings"
   ],
   "nativeMenus": true,
   "showViewHeader": true,
