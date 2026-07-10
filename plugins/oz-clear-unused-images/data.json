@@ -1,0 +1,7 @@
+{
+  "deleteOption": ".trash",
+  "logsModal": true,
+  "excludedFolders": "90-Meta/Attachments/Miscellaneous",
+  "ribbonIcon": false,
+  "excludeSubfolders": false
+}

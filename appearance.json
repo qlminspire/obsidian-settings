@@ -9,7 +9,8 @@
     "obsidian-notebook-theme",
     "custom",
     "media-grid-snippet",
-    "sanctum-theme_custom-settings"
+    "sanctum-theme_custom-settings",
+    "fixed-media-size"
   ],
   "nativeMenus": true,
   "showViewHeader": true,
