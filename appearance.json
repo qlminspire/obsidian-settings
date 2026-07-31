@@ -14,7 +14,7 @@
   ],
   "nativeMenus": true,
   "showViewHeader": true,
-  "textFontFamily": "Gill Sans,JetBrains Mono,Cascadia Code PL,Cascadia Code PL SemiLight,Symbols Nerd Font,JetBrainsMono Nerd Font Mono,Symbols Nerd Font Mono,iA Writer Mono S",
+  "textFontFamily": "Gill Sans,JetBrains Mono,Cascadia Code PL,Cascadia Code PL SemiLight,Cascadia Mono PL,iA Writer Mono S",
   "interfaceFontFamily": "Gill Sans,JetBrains Mono,Cascadia Code PL",
   "monospaceFontFamily": "",
   "showRibbon": true
