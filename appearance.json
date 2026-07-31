@@ -7,10 +7,7 @@
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
     "obsidian-notebook-theme",
-    "custom",
-    "media-grid-snippet",
-    "sanctum-theme_custom-settings",
-    "fixed-media-size"
+    "custom"
   ],
   "nativeMenus": true,
   "showViewHeader": true,
