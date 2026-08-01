@@ -24,3 +24,8 @@
 a .tag {
     padding: 0 !important;
 }
+
+/* Исправление отображения меню файлов, стрелочки папок съезжали */
+/* .nav-files-container {
+    margin-left: 10px;
+} */

@@ -612,5 +612,8 @@
       ],
       "key": "L"
     }
-  ]
+  ],
+  "editor:open-link-in-new-leaf": [],
+  "obsidian-excalidraw-plugin:save": [],
+  "workspace:new-tab": []
 }
