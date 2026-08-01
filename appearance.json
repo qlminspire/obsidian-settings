@@ -1,7 +1,7 @@
 {
   "accentColor": "#ffeda8",
   "baseFontSize": 16,
-  "cssTheme": "Sanctum reborn",
+  "cssTheme": "Minimal",
   "theme": "system",
   "translucency": false,
   "baseFontSizeAction": true,
@@ -9,7 +9,6 @@
     "obsidian-notebook-theme",
     "custom",
     "media-grid-snippet",
-    "fixed-media-size",
     "sanctum-theme_custom-settings"
   ],
   "nativeMenus": true,
