@@ -1,5 +1,5 @@
 {
-  "accentColor": "#daff02",
+  "accentColor": "#bec388",
   "baseFontSize": 16,
   "cssTheme": "Minimal",
   "theme": "system",
@@ -9,6 +9,7 @@
     "obsidian-notebook-theme",
     "custom",
     "media-grid-snippet",
+    "fixed-media-size",
     "sanctum-theme_custom-settings"
   ],
   "nativeMenus": true,
