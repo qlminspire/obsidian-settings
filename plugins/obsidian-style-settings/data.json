@@ -128,5 +128,6 @@
   "minimal-style@@ax1@@dark": "#BEC388",
   "minimal-style@@ui1@@dark": "#BEC38850",
   "minimal-style@@ui1@@light": "#BEC38850",
+  "minimal-style@@code-background@@dark": "#282824",
   "minimal-style@@dataview-inline-lists": false
 }

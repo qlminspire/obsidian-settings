@@ -2,7 +2,7 @@
   "accentColor": "#bec388",
   "baseFontSize": 16,
   "cssTheme": "Minimal",
-  "theme": "system",
+  "theme": "obsidian",
   "translucency": false,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
