@@ -277,7 +277,7 @@
   "recordLintOnSaveLogs": false,
   "displayChanged": true,
   "suppressMessageWhenNoChange": false,
-  "suppressLintAllFilesConfirmationModal": false,
+  "suppressLintAllFilesConfirmationModal": true,
   "suppressLintAllFilesInFolderConfirmationModal": false,
   "lintOnFileChange": true,
   "displayLintOnFileChangeNotice": false,

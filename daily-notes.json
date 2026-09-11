@@ -1,5 +1,5 @@
 {
   "folder": "10-Journal/Daily",
   "autorun": false,
-  "template": "90-Meta/Templates/Journal/_daily"
+  "template": "90-Meta/Templates/Journal/_daily.md"
 }

@@ -1,11 +1,4 @@
 {
-  "sanctum@@light-mode-contrast-mode": "sanctum-default-light",
-  "sanctum@@color-accent-rgb-l": "170, 165, 136",
-  "sanctum@@blockquote-border-color@@light": "#AAA588",
-  "sanctum@@dark-mode-contrast-mode": "sanctum-default-dark",
-  "sanctum@@color-accent-rgb-d": "170, 165, 136",
-  "sanctum@@blockquote-border-color@@dark": "#AAA588",
-  "sanctum@@checkbox-color-rgb": "170, 165, 136",
   "sanctum@@desaturate-images": false,
   "sanctum@@stendig": false,
   "sanctum@@calendar-flip": false,
@@ -63,7 +56,7 @@
   "minimal-style@@blockquote-border-thickness": 2,
   "minimal-style@@blockquote-font-style": "normal",
   "minimal-style@@callout-blend-mode": "var(--highlight-mix-blend-mode)",
-  "minimal-style@@callouts-style": "callouts-outlined",
+  "minimal-style@@callouts-style": "callouts-default",
   "minimal-style@@h1-size": "2em",
   "minimal-style@@h2-size": "1.8em",
   "minimal-style@@h3-size": "1.6em",
@@ -129,5 +122,7 @@
   "minimal-style@@ui1@@dark": "#BEC38850",
   "minimal-style@@ui1@@light": "#BEC38850",
   "minimal-style@@code-background@@dark": "#282824",
-  "minimal-style@@dataview-inline-lists": false
+  "minimal-style@@dataview-inline-lists": false,
+  "sanctum@@color-accent-rgb-l": "99, 149, 156",
+  "sanctum@@color-accent-rgb-d": "99, 149, 156"
 }
