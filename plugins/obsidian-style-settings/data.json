@@ -124,5 +124,6 @@
   "minimal-style@@code-background@@dark": "#282824",
   "minimal-style@@dataview-inline-lists": false,
   "sanctum@@color-accent-rgb-l": "99, 149, 156",
-  "sanctum@@color-accent-rgb-d": "99, 149, 156"
+  "sanctum@@color-accent-rgb-d": "99, 149, 156",
+  "sanctum@@checkbox-color-rgb": "99, 149, 156"
 }
