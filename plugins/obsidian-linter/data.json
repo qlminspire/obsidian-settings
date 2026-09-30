@@ -216,7 +216,7 @@
       "enabled": false
     },
     "remove-empty-lines-between-list-markers-and-checklists": {
-      "enabled": false
+      "enabled": true
     },
     "remove-link-spacing": {
       "enabled": true
@@ -277,6 +277,7 @@
   "recordLintOnSaveLogs": false,
   "displayChanged": true,
   "suppressMessageWhenNoChange": false,
+  "enableDiffPreviewView": true,
   "suppressLintAllFilesConfirmationModal": true,
   "suppressLintAllFilesInFolderConfirmationModal": false,
   "lintOnFileChange": true,
