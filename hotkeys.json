@@ -615,5 +615,32 @@
   ],
   "editor:open-link-in-new-leaf": [],
   "obsidian-excalidraw-plugin:save": [],
-  "workspace:new-tab": []
+  "workspace:new-tab": [],
+  "quickadd:choice:93fc2b80-908c-4047-8ec4-b26b401a7cbd": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "V"
+    }
+  ],
+  "quickadd:choice:2c6370e0-12d2-4834-934c-41c2cbe3908d": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ],
+  "quickadd:choice:8d048d7e-b4c8-4f32-9b26-c428b8687a93": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ]
 }

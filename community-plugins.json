@@ -1,14 +1,14 @@
 [
   "templater-obsidian",
   "dataview",
+  "obsidian-style-settings",
   "obsidian-excalidraw-plugin",
   "calendar",
   "obsidian-linter",
-  "cm-editor-syntax-highlight-obsidian",
-  "obsidian-contextual-typography",
   "oz-clear-unused-images",
-  "obsidian-style-settings",
   "omnisearch",
-  "obsidian-minimal-settings",
-  "tag-wrangler"
+  "tag-wrangler",
+  "obsidian-contextual-typography",
+  "cm-editor-syntax-highlight-obsidian",
+  "quickadd"
 ]

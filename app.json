@@ -1,5 +1,5 @@
 {
-  "promptDelete": false,
+  "promptDelete": true,
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "00-Inbox",
@@ -57,5 +57,5 @@
   "showInlineTitle": true,
   "propertiesInDocument": "visible",
   "tabSize": 4,
-  "deleteUnlinkedAttachments": "always"
+  "deleteUnlinkedAttachments": "ask"
 }
