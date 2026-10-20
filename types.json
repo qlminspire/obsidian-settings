@@ -38,6 +38,8 @@
     "excalidraw-embed-md": "checkbox",
     "Добавление": "date",
     "excalidraw-export-internal-links": "checkbox",
-    "Название": "text"
+    "Название": "text",
+    "Комментарии": "text",
+    "Откуда": "multitext"
   }
 }
