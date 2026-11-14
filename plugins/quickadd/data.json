@@ -2,7 +2,7 @@
   "choices": [
     {
       "id": "93fc2b80-908c-4047-8ec4-b26b401a7cbd",
-      "name": "Video",
+      "name": "Добавить видео",
       "type": "Template",
       "command": true,
       "templatePath": "90-Meta/Templates/Library/_video.md",
@@ -46,7 +46,7 @@
     },
     {
       "id": "2c6370e0-12d2-4834-934c-41c2cbe3908d",
-      "name": "Book",
+      "name": "Добавить книгу",
       "type": "Template",
       "command": true,
       "templatePath": "90-Meta/Templates/Library/_book.md",
@@ -58,7 +58,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "20-Library/Books"
+          "20-Library/Book"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -90,7 +90,7 @@
     },
     {
       "id": "8d048d7e-b4c8-4f32-9b26-c428b8687a93",
-      "name": "Library Finisher",
+      "name": "Завершить и оценить",
       "type": "Macro",
       "command": true,
       "runOnStartup": false,

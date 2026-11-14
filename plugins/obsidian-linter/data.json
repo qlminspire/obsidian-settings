@@ -849,7 +849,7 @@
   "enableDiffPreviewView": true,
   "suppressLintAllFilesConfirmationModal": true,
   "suppressLintAllFilesInFolderConfirmationModal": false,
-  "lintOnFileChange": true,
+  "lintOnFileChange": false,
   "ignoreFilesOutsideVault": false,
   "displayLintOnFileChangeNotice": false,
   "settingsConvertedToConfigKeyValues": true,
@@ -857,9 +857,9 @@
   "defaultArrayStyleMovedToCommonStyles": true,
   "additionalFileExtensions": [],
   "foldersToIgnore": [
-    "80-Archive/90-Meta/Templates",
     "90-Meta/Templates",
-    "90-Meta/Templates/Library"
+    "90-Meta/Templates/Library",
+    "90-Meta/Scripts/hooks"
   ],
   "filesToIgnore": [
     {

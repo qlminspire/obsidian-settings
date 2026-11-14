@@ -1,71 +1,53 @@
-/* This snippet requires Contextual Typography 2.2.1+ */
-/* https://github.com/mgmeyers/obsidian-contextual-typography */
-/*
-:root {
-  --content-base-width: 45rem;
-} */
+/* Сетка для подряд идущих изображений/видео в режиме чтения.
+   Оригинал требует плагин Contextual Typography (он ставит data-is-embed);
+   здесь блок с медиа определяется через :has(), плагин не нужен.
+   Сетка включается только если в абзаце 2+ вставок подряд; одиночные картинки не трогаем.
+   Ширину и выравнивание блока задаёт тема: сетка не шире колонки текста.
+   Размер ячеек (--media-max-width) общий с fixed-media-size.css. */
 
-/* ----------------------------------------- */
-/* Handle overall content width */
-/* ----------------------------------------- */
+.markdown-preview-view.is-readable-line-width .markdown-preview-section
+div:has(> p > :is(.image-embed, .video-embed) ~ :is(.image-embed, .video-embed)) {
 
-/* Wrapper with padding keeps content from bumping the edges */
-.markdown-preview-view.is-readable-line-width {
-  padding-inline: 30px;
-}
+  /* Зазор между соседними блоками с сеткой */
+  & + & {
+    margin-top: var(--media-grid-gap, 7px);
+  }
 
-/* Container controlling overall max content width */
-.markdown-preview-view.is-readable-line-width .markdown-preview-section {
-  width: 100%;
-  max-width: var(--content-max-width, 45rem);
-  /* Second value is fallback in case user isn't using Style settings */
-}
+  /* Абзац = ряды ячеек; ряд переносится, когда ячейка станет уже --media-min-width */
+  & > p {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--media-grid-gap, 7px);
+    margin: 0;
 
-/* All children of overall container are divs */
-.markdown-preview-view.is-readable-line-width .markdown-preview-section>div {
-  margin-inline: auto;
-  width: min(var(--content-base-width), 100%);
-}
+    /* Переносы строк между вставками не нужны */
+    br {
+      display: none;
+    }
 
-/* Specific children of overall container that contain media */
-.markdown-preview-view.is-readable-line-width .markdown-preview-section div[data-is-embed] {
-  width: 100%;
-}
+    /* Ячейка: span-обёртка (файлы из хранилища) или "голые" img/video (веб-медиа) */
+    > :is(span, img, video) {
+      flex: 1 1 var(--media-min-width, 160px);
+      min-width: 0;
+      max-width: var(--media-max-width, 350px);
+    }
 
-/* ----------------------------------------- */
-/* Make media items display in rows */
-/* ----------------------------------------- */
+    > span {
+      display: flex;
+    }
 
-/* p tags wrap each row */
-.markdown-preview-view.is-readable-line-width .markdown-preview-section div[data-is-embed]>p {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-  grid-gap: var(--media-grid-gap, 7px);
-  margin: 0;
-}
-
-/* Remove breaks from the document flow */
-.markdown-preview-view.is-readable-line-width .markdown-preview-section div[data-is-embed]>p br {
-  display: none;
-}
-
-/* Media items sourced from your vault are wrapped in a span – media linked from the web is not wrapped */
-.markdown-preview-view.is-readable-line-width .markdown-preview-section div[data-is-embed]>p>span {
-  display: flex;
-}
-
-/* Apply this to all img/video tags in a row whether they're wrapped in a span or not */
-.markdown-preview-view.is-readable-line-width .markdown-preview-section div[data-is-embed]>p img,
-.markdown-preview-view.is-readable-line-width .markdown-preview-section div[data-is-embed]>p video {
-  flex: 1;
-  align-self: stretch;
-  object-fit: cover;
-  border-radius: var(--media-border-radius, 4px);
-}
-
-/* Create gaps between rows */
-.markdown-preview-view.is-readable-line-width .markdown-preview-section div[data-is-embed]+div[data-is-embed] {
-  margin-top: var(--media-grid-gap, 7px);
+    /* Одинаковая высота ячеек, иначе ряд растягивается до самой высокой картинки */
+    img,
+    video {
+      flex: 1;
+      min-width: 0;
+      width: 100%;
+      max-width: none;   /* лимит одиночных картинок (fixed-media-size) в сетке не нужен */
+      height: var(--media-grid-height, 300px);
+      object-fit: var(--media-grid-fit, cover);
+      border-radius: var(--media-border-radius, 4px);
+    }
+  }
 }
 
 /* ----------------------------------------- */
@@ -76,29 +58,6 @@
 name: Media Grid Snippet
 id: media-grid-snippet
 settings:
-  -
-      id: content-max-width
-      title: Grid width
-      description: Set the max width of your grid layouts.
-      type: variable-select
-      allowEmpty: false
-      default: var(--content-base-width)
-      options:
-          -
-              label: Base width
-              value: var(--content-base-width)
-          -
-              label: Small
-              value: calc(var(--content-base-width) + 5%)
-          -
-              label: Medium
-              value: calc(var(--content-base-width) + 10%)
-          -
-              label: Large
-              value: calc(var(--content-base-width) + 20%)
-          -
-              label: Full width
-              value: 100%
   -
       id: media-grid-gap
       title: Grid gap
@@ -119,4 +78,38 @@ settings:
       min: 0
       max: 40
       step: 1
+  -
+      id: media-grid-height
+      title: Row height
+      description: Height of images and videos in a grid row.
+      type: variable-number-slider
+      format: px
+      default: 300
+      min: 100
+      max: 800
+      step: 10
+  -
+      id: media-grid-fit
+      title: Fit
+      description: Crop to fill the cell (cover) or show the whole image (contain).
+      type: variable-select
+      allowEmpty: false
+      default: cover
+      options:
+          -
+              label: Crop (cover)
+              value: cover
+          -
+              label: Whole image (contain)
+              value: contain
+  -
+      id: media-min-width
+      title: Min item width
+      description: Items wrap to the next row when they would become narrower than this.
+      type: variable-number-slider
+      format: px
+      default: 160
+      min: 80
+      max: 400
+      step: 10
 */

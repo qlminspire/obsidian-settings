@@ -1,9 +1,35 @@
-.image-embed,
-.image-embed img {
-    max-width: 350px;
+/* Размер по умолчанию для одиночных изображений и видео без явной ширины.
+   Если ширина задана вручную (![[img.png|600]] или перетаскиванием в редакторе),
+   Obsidian ставит атрибут width, и лимит снимается: ограничение только шириной панели.
+   В сетке (media-grid-snippet.css) лимит не действует: размером ячеек там управляет сама сетка. */
+
+:is(.image-embed, .video-embed),
+:is(.image-embed, .video-embed) :is(img, video) {
+    max-width: min(var(--media-max-width, 350px), 100%);
 }
 
-.video-embed,
-.video-embed video {
-    max-width: 350px;
+/* Явная ширина: лимит по умолчанию не действует */
+:is(.image-embed, .video-embed)[width],
+:is(.image-embed, .video-embed)[width] :is(img, video),
+img[width],
+video[width] {
+    max-width: 100%;
 }
+
+/* Style settings */
+
+/* @settings
+name: Fixed media size
+id: fixed-media-size
+settings:
+  -
+      id: media-max-width
+      title: Max image/video width
+      description: Max width of single images/videos and of each column in media grids.
+      type: variable-number-slider
+      format: px
+      default: 350
+      min: 100
+      max: 800
+      step: 10
+*/

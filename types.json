@@ -26,7 +26,6 @@
     "excalidraw-embeddable-theme": "text",
     "Тип": "multitext",
     "Категория": "multitext",
-    "Источник": "multitext",
     "Начало": "date",
     "Завершение": "date",
     "Рейтинг": "number",
@@ -34,12 +33,7 @@
     "Ссылка": "text",
     "Платформа": "multitext",
     "create_date": "datetime",
-    "update_date": "datetime",
     "excalidraw-embed-md": "checkbox",
-    "Добавление": "date",
-    "excalidraw-export-internal-links": "checkbox",
-    "Название": "text",
-    "Комментарии": "text",
-    "Откуда": "multitext"
+    "excalidraw-export-internal-links": "checkbox"
   }
 }

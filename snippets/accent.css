@@ -1,0 +1,212 @@
+/* ==========================================================================
+   Акцентный цвет и оформление светлой темы
+
+   Цвет выбирается одним списком: Style Settings -> Accent -> Accent color.
+   Выбранный пресет добавляет на <body> класс accent-<имя> (например accent-teal).
+   Для каждого пресета заданы два набора значений: для светлой и тёмной темы
+   (в тёмной светлее).
+
+   Пресет задаёт цвет в двух местах, потому что темы читают его по-разному:
+     --accent-h / -s / -l   Minimal и стандартные темы Obsidian
+     --color-accent-rgb     акцент Sanctum
+
+   !important нужен, потому что Obsidian пишет акцент из настроек inline-стилем в <body>.
+   Пресет accent-default ничего не переопределяет: остаётся акцент темы.
+   ========================================================================== */
+
+/* --- Серые тона светлой темы ---------------------------------------------- */
+
+body.theme-light {
+  --text-muted: #5c5c5c;   /* нейтральные серые, без зелёного оттенка */
+  --text-faint: #8f8f8f;
+}
+
+/* Чекбоксы Sanctum имеют свой цвет, не зависящий от акцента: привязываем к акценту */
+body:not(.accent-default) {
+  --checkbox-color-rgb: var(--color-accent-rgb) !important;
+}
+
+/* --- Палитра пресетов --------------------------------------------------------
+   Единственное место, где записаны RGB-значения цветов (светлая и тёмная тема).
+   Пресеты ниже берут их отсюда, а цвета секций главной страницы
+   (90-Meta/Scripts/homepage/view.css) используют --preset-<имя>-color. */
+
+body.theme-light {
+  --preset-teal: 99, 148, 156;
+  --preset-slate: 110, 140, 180;
+  --preset-indigo: 132, 132, 200;
+  --preset-plum: 184, 117, 150;
+  --preset-terracotta: 195, 119, 96;
+  --preset-sage: 95, 149, 113;
+  --preset-amber: 182, 131, 43;
+  --preset-rose: 194, 112, 126;
+  --preset-violet: 158, 125, 191;
+  --preset-graphite: 128, 138, 147;
+}
+
+body.theme-dark {
+  --preset-teal: 131, 178, 185;
+  --preset-slate: 134, 163, 203;
+  --preset-indigo: 155, 155, 217;
+  --preset-plum: 204, 142, 173;
+  --preset-terracotta: 211, 138, 115;
+  --preset-sage: 133, 183, 150;
+  --preset-amber: 214, 169, 92;
+  --preset-rose: 213, 144, 156;
+  --preset-violet: 189, 162, 215;
+  --preset-graphite: 160, 168, 177;
+}
+
+body {
+  --preset-teal-color: rgb(var(--preset-teal));
+  --preset-slate-color: rgb(var(--preset-slate));
+  --preset-indigo-color: rgb(var(--preset-indigo));
+  --preset-plum-color: rgb(var(--preset-plum));
+  --preset-terracotta-color: rgb(var(--preset-terracotta));
+  --preset-sage-color: rgb(var(--preset-sage));
+  --preset-amber-color: rgb(var(--preset-amber));
+  --preset-rose-color: rgb(var(--preset-rose));
+  --preset-violet-color: rgb(var(--preset-violet));
+  --preset-graphite-color: rgb(var(--preset-graphite));
+}
+
+/* --- Пресеты --------------------------------------------------------------- */
+
+body.accent-teal {
+  &.theme-light { --accent-h: 188 !important; --accent-s: 22% !important; --accent-l: 50% !important; --color-accent-rgb: var(--preset-teal) !important; }
+  &.theme-dark  { --accent-h: 188 !important; --accent-s: 28% !important; --accent-l: 62% !important; --color-accent-rgb: var(--preset-teal) !important; }
+}
+
+body.accent-slate {
+  &.theme-light { --accent-h: 215 !important; --accent-s: 32% !important; --accent-l: 57% !important; --color-accent-rgb: var(--preset-slate) !important; }
+  &.theme-dark  { --accent-h: 215 !important; --accent-s: 40% !important; --accent-l: 66% !important; --color-accent-rgb: var(--preset-slate) !important; }
+}
+
+body.accent-indigo {
+  &.theme-light { --accent-h: 240 !important; --accent-s: 38% !important; --accent-l: 65% !important; --color-accent-rgb: var(--preset-indigo) !important; }
+  &.theme-dark  { --accent-h: 240 !important; --accent-s: 45% !important; --accent-l: 73% !important; --color-accent-rgb: var(--preset-indigo) !important; }
+}
+
+body.accent-plum {
+  &.theme-light { --accent-h: 330 !important; --accent-s: 32% !important; --accent-l: 59% !important; --color-accent-rgb: var(--preset-plum) !important; }
+  &.theme-dark  { --accent-h: 330 !important; --accent-s: 38% !important; --accent-l: 68% !important; --color-accent-rgb: var(--preset-plum) !important; }
+}
+
+body.accent-terracotta {
+  &.theme-light { --accent-h: 14 !important; --accent-s: 45% !important; --accent-l: 57% !important; --color-accent-rgb: var(--preset-terracotta) !important; }
+  &.theme-dark  { --accent-h: 14 !important; --accent-s: 52% !important; --accent-l: 64% !important; --color-accent-rgb: var(--preset-terracotta) !important; }
+}
+
+body.accent-sage {
+  &.theme-light { --accent-h: 140 !important; --accent-s: 22% !important; --accent-l: 48% !important; --color-accent-rgb: var(--preset-sage) !important; }
+  &.theme-dark  { --accent-h: 140 !important; --accent-s: 26% !important; --accent-l: 62% !important; --color-accent-rgb: var(--preset-sage) !important; }
+}
+
+body.accent-amber {
+  &.theme-light { --accent-h: 38 !important; --accent-s: 62% !important; --accent-l: 44% !important; --color-accent-rgb: var(--preset-amber) !important; }
+  &.theme-dark  { --accent-h: 38 !important; --accent-s: 60% !important; --accent-l: 60% !important; --color-accent-rgb: var(--preset-amber) !important; }
+}
+
+body.accent-rose {
+  &.theme-light { --accent-h: 350 !important; --accent-s: 40% !important; --accent-l: 60% !important; --color-accent-rgb: var(--preset-rose) !important; }
+  &.theme-dark  { --accent-h: 350 !important; --accent-s: 45% !important; --accent-l: 70% !important; --color-accent-rgb: var(--preset-rose) !important; }
+}
+
+body.accent-violet {
+  &.theme-light { --accent-h: 270 !important; --accent-s: 34% !important; --accent-l: 62% !important; --color-accent-rgb: var(--preset-violet) !important; }
+  &.theme-dark  { --accent-h: 270 !important; --accent-s: 40% !important; --accent-l: 74% !important; --color-accent-rgb: var(--preset-violet) !important; }
+}
+
+body.accent-graphite {
+  &.theme-light { --accent-h: 210 !important; --accent-s: 8% !important;  --accent-l: 54% !important; --color-accent-rgb: var(--preset-graphite) !important; }
+  &.theme-dark  { --accent-h: 210 !important; --accent-s: 10% !important; --accent-l: 66% !important; --color-accent-rgb: var(--preset-graphite) !important; }
+}
+
+/* --- Цвета пунктов в списке Style Settings -----------------------------------
+   Пункт списка окрашен в цвет пресета (из палитры выше, для текущей темы). */
+
+.setting-item[data-id="accent-preset"] option[value="accent-teal"]       { color: var(--preset-teal-color); }
+.setting-item[data-id="accent-preset"] option[value="accent-slate"]      { color: var(--preset-slate-color); }
+.setting-item[data-id="accent-preset"] option[value="accent-indigo"]     { color: var(--preset-indigo-color); }
+.setting-item[data-id="accent-preset"] option[value="accent-plum"]       { color: var(--preset-plum-color); }
+.setting-item[data-id="accent-preset"] option[value="accent-terracotta"] { color: var(--preset-terracotta-color); }
+.setting-item[data-id="accent-preset"] option[value="accent-sage"]       { color: var(--preset-sage-color); }
+.setting-item[data-id="accent-preset"] option[value="accent-amber"]      { color: var(--preset-amber-color); }
+.setting-item[data-id="accent-preset"] option[value="accent-rose"]       { color: var(--preset-rose-color); }
+.setting-item[data-id="accent-preset"] option[value="accent-violet"]     { color: var(--preset-violet-color); }
+.setting-item[data-id="accent-preset"] option[value="accent-graphite"]   { color: var(--preset-graphite-color); }
+
+/* --- Главная страница (светлая тема) ---------------------------------------
+   Вариант A: всё белое. Страница и карточки белые, карточки отделены тонкой
+   нейтральной рамкой без тени; кнопки едва тонированы акцентом. */
+
+.theme-light .hp {
+  --background-secondary: #ffffff;
+  --background-modifier-border: #dadada;
+  --hp-fill: color-mix(in srgb, var(--color-accent) 4%, #fff);
+  --hp-fill-hover: color-mix(in srgb, var(--color-accent) 10%, #fff);
+  --hp-fill-active: color-mix(in srgb, var(--color-accent) 15%, #fff);
+}
+
+.theme-light .hp-card {
+  box-shadow: none;
+}
+
+/* Чекбоксы задач тоньше и светлее, не перетягивают внимание с текста */
+.theme-light .hp .hp-check::before {
+  border-width: 1.5px;
+  border-color: #c4c4c4;
+}
+
+.theme-light .hp .hp-check:hover::before {
+  border-color: var(--accent);
+}
+
+/* --- Style Settings --------------------------------------------------------- */
+
+/* @settings
+name: Accent
+id: accent
+settings:
+  -
+      id: accent-preset
+      title: Accent color
+      description: One preset for both themes (lighter shades are used in the dark theme). Default keeps the theme's own accent.
+      type: class-select
+      allowEmpty: false
+      default: accent-teal
+      options:
+          -
+              label: "○ Default (theme)"
+              value: accent-default
+          -
+              label: "● Teal"
+              value: accent-teal
+          -
+              label: "● Slate blue"
+              value: accent-slate
+          -
+              label: "● Indigo"
+              value: accent-indigo
+          -
+              label: "● Plum"
+              value: accent-plum
+          -
+              label: "● Terracotta"
+              value: accent-terracotta
+          -
+              label: "● Sage"
+              value: accent-sage
+          -
+              label: "● Amber"
+              value: accent-amber
+          -
+              label: "● Rose"
+              value: accent-rose
+          -
+              label: "● Violet"
+              value: accent-violet
+          -
+              label: "● Graphite"
+              value: accent-graphite
+*/

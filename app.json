@@ -51,11 +51,9 @@
   "readableLineLength": true,
   "showIndentGuide": true,
   "rightToLeft": false,
-  "userIgnoreFilters": [
-    "90-Meta/Attachments/TikTok/"
-  ],
   "showInlineTitle": true,
   "propertiesInDocument": "visible",
   "tabSize": 4,
-  "deleteUnlinkedAttachments": "ask"
+  "deleteUnlinkedAttachments": "ask",
+  "autoPairBrackets": true
 }

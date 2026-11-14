@@ -1,16 +1,15 @@
 {
   "accentColor": "#88aaa5",
-  "baseFontSize": 16,
+  "baseFontSize": 17,
   "cssTheme": "Minimal",
   "theme": "obsidian",
   "translucency": false,
   "baseFontSizeAction": true,
   "enabledCssSnippets": [
-    "obsidian-notebook-theme",
-    "custom",
     "media-grid-snippet",
     "fixed-media-size",
-    "sanctum-theme_custom-settings"
+    "sanctum-theme_custom-settings",
+    "accent"
   ],
   "nativeMenus": true,
   "showViewHeader": true,

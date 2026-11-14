@@ -1,11 +1,12 @@
 [
   "templater-obsidian",
   "dataview",
-  "obsidian-style-settings",
   "obsidian-excalidraw-plugin",
   "calendar",
-  "obsidian-linter",
   "omnisearch",
   "quickadd",
+  "homepage",
+  "obsidian-linter",
+  "obsidian-style-settings",
   "obsidian-minimal-settings"
 ]
